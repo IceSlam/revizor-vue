@@ -1,12 +1,22 @@
 <template>
   <div id="app">
+<!--
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <a class="btn btn-success" href="#"> BTN</a>
+      <router-link to="/">Главная</router-link> |
+      <router-link to="/about">О компании</router-link> |
+      <router-link to="/services">Услуги</router-link> |
+      <router-link to="/news">Новости</router-link> |
+      <router-link to="/contacts">Контакты</router-link>
+    </div> -->
     <router-view/>
   </div>
 </template>
+
+<script>
+// import headerTpl from '@/components/headerTpl'
+
+</script>
 
 <style lang="scss">
 #app {
