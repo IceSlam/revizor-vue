@@ -1,24 +1,26 @@
 <template>
   <div id="app">
-<!--
-    <div id="nav">
-      <a class="btn btn-success" href="#"> BTN</a>
-      <router-link to="/">Главная</router-link> |
-      <router-link to="/about">О компании</router-link> |
-      <router-link to="/services">Услуги</router-link> |
-      <router-link to="/news">Новости</router-link> |
-      <router-link to="/contacts">Контакты</router-link>
-    </div> -->
+    <headerTpl />
     <router-view/>
+    <footerTpl />
   </div>
 </template>
 
 <script>
-// import headerTpl from '@/components/headerTpl'
+import headerTpl from '@/components/headerTpl'
+import footerTpl from '@/components/footerTpl'
+
+export default {
+  name: 'App',
+  components: {
+    headerTpl,
+    footerTpl
+  }
+}
 
 </script>
 
-<style lang="scss">
+<style lang="css">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,6 +1,5 @@
 <template>
   <div id="homePage">
-    <headerTpl />
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
       Главная
@@ -9,15 +8,11 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import headerTpl from '@/components/headerTpl'
 
 export default {
   name: 'homePage',
   components: {
-    headerTpl
-  },
-  meta: { title: 'Главная' }
+  }
 }
 </script>
 
