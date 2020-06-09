@@ -5,11 +5,11 @@
       <a class="navbar-brand is-navbar__brand" href="/">
         <img class="is-navbar__brand-logo" src="../assets/img/revisorLogo.png" alt="Ревизор - бухгалтерские и юридические услуги">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      <button class="navbar-toggler" @click="showHeaderMenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse is-navbar__collapse" id="navbarSupportedContent-333">
+      <div class="collapse navbar-collapse is-navbar__collapse" :class="showHeaderMenuClass" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto justify-center text-center">
           <li class="nav-item">
             <router-link class="nav-link" to="/" exact>Главная</router-link>
@@ -35,7 +35,17 @@
 
 <script>
 export default {
-  name: 'headerTpl'
+  name: 'headerTpl',
+  data () {
+    return {
+      showHeaderMenuClass: { show: false }
+    }
+  },
+  methods: {
+    showHeaderMenu () {
+      this.showHeaderMenuClass.show = !this.showHeaderMenuClass.show
+    }
+  }
 }
 
 </script>

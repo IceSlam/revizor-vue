@@ -1,0 +1,17 @@
+/* Navbar component styles */
+
+@media (max-width:575px) {
+  .is-navbar__collapse {
+    margin-left: auto !important;
+    margin-bottom: auto;
+    padding-bottom: 1em;
+  }
+
+  .router-link-active::after {
+    display: none;
+  }
+
+  .nav-link:hover::after {
+    display: none;
+  }
+}
