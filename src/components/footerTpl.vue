@@ -10,23 +10,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-        <ul class="navbar-nav mr-auto is_main-navbar-menu justify-center text-center">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/" exact>Главная</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/about">О компании</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/services">Услуги</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/news">Новости</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/contacts">Контакты</router-link>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
