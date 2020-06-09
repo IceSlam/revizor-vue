@@ -317,6 +317,121 @@ body {
     color: #FFFFFF;
   }
 
+  /* homePageAbout component */
+
+  .is-about {
+    background: #fff;
+  }
+
+  .is-about__row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .is-about__text {
+    padding-left: 8.4375em;
+    padding-right: 6.25em;
+    padding-bottom: 5.625em;
+    padding-top: 5.625em;
+  }
+
+  .is-about__text h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #3F3E3E;
+  }
+
+  .is-btn-more {
+    background: linear-gradient(180deg, #F7F2F2 0%, #E1DBDB 100%);
+    box-shadow: 0px 3px 0px #D0C9C9;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #3F3E3E;
+    text-shadow: 0px 1px 0px #F1F1F1;
+    text-transform: none;
+    padding-right: .5em;
+    padding-left: .9em;
+    padding-bottom: .625em;
+    max-width: 220px;
+    display: inline-flex;
+    text-align: left;
+    line-height: 1;
+    transition: all .625s;
+  }
+
+  .is-btn-more span:last-child {
+    font-weight: 400;
+    text-transform: lowercase;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+    margin-left: 3px;
+  }
+
+  .is-btn-more:hover {
+    background: linear-gradient(180deg, #F7F2F2 0%, #F2F2F2 100%);
+    box-shadow: 0px 1px 0px #D0C9C9;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #DE3131;
+    text-shadow: 0px 1px 0px #F1F1F1;
+    transition: all .625s;
+  }
+
+  .is-btn-video {
+    background: linear-gradient(180deg, #F86A6A 0%, #DE3131 100%);
+    box-shadow: 0px 3px 0px #AF1A1A;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: none;
+    padding-right: .5em;
+    padding-left: .9em;
+    padding-bottom: .625em;
+    max-width: 220px;
+    display: inline-flex;
+    text-align: left;
+    line-height: 1;
+    transition: all .625s;
+  }
+
+  .is-btn-video span:last-child {
+    font-weight: 400;
+    text-transform: lowercase;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+    margin-left: 3px;
+  }
+
+  .is-btn-video:hover {
+    background: linear-gradient(180deg, #F86A6A 0%, #FA5B5B 100%);
+    box-shadow: 0px 1px 0px #AF1A1A;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3F3E3E;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.2);
+    transition: all .625s;
+  }
+
   /* footerTpl component */
    #footer {
      background: #F1F1F1;

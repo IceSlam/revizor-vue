@@ -2,6 +2,7 @@
   <div id="homePage">
     <homePageSlider />
     <homePageServices />
+    <homePageAbout />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 
 import homePageSlider from '@/components/homePageSlider'
 import homePageServices from '@/components/homePageServices'
+import homePageAbout from '@/components/homePageAbout'
 
 export default {
   name: 'homePage',
   components: {
     homePageSlider,
-    homePageServices
+    homePageServices,
+    homePageAbout
   }
 }
 </script>
