@@ -54,12 +54,11 @@ export default {
   .router-link-active::after {
     content: "";
     display: block;
-    width: 100%;
+    width: 85%;
     height: 36px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(222, 49, 49, 0.1) 100%);
     margin-top: 0px;
     border-bottom: 4px solid rgba(222,49,49,.6);
-    margin-left: auto;
     margin-right: auto;
     transition: all .625s !important;
 }
@@ -91,12 +90,11 @@ export default {
   .nav-link:hover::after {
     content: "";
     display: block;
-    width: 100%;
+    width: 85%;
     height: 36px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(222, 49, 49, 0.1) 100%);
     margin-top: 0px;
     border-bottom: 4px solid rgba(222,49,49,.6);
-    margin-left: auto;
     margin-right: auto;
     transition: all .625s !important;
   }

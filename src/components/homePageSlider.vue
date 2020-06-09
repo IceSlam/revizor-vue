@@ -10,7 +10,7 @@
           <p>
             Если Вам нужно решить конкретную проблему, связанную с налогами и бухгалтерией, то стоит обратиться в компанию «Ревизор». Мы можем предоставить весь спектр бухгалтерских и налоговых услуг
           </p>
-          <a class="btn is-btn" href="#">
+          <a class="btn is-btn-out" href="#">
             Подробнее об акции
             <i class="fas fa-chevron-right"></i>
           </a>
@@ -44,7 +44,7 @@ export default {
     padding: 69px 0;
   }
 
-  .is-btn {
+  .is-btn-out {
     box-shadow: none;
     margin: 0;
     color: #fff;
@@ -59,7 +59,7 @@ export default {
     transition: all .625s;
   }
 
-  .is-btn:hover {
+  .is-btn-out:hover {
     box-shadow: none;
     color: #DE3131;
     background: #fff;
