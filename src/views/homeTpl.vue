@@ -1,21 +1,28 @@
 <template>
   <div id="homePage">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h2>
-      Главная
-    </h2>
+    <homePageSlider />
+    <homePageServices />
   </div>
 </template>
 
 <script>
 
+import homePageSlider from '@/components/homePageSlider'
+import homePageServices from '@/components/homePageServices'
+
 export default {
   name: 'homePage',
   components: {
+    homePageSlider,
+    homePageServices
   }
 }
 </script>
 
 <style>
+
+  #homePage {
+    font-family: 'Nunito', sans-serif;
+  }
 
 </style>

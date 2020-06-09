@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style lang="css">
+body {
+  font-family: 'Nunito', sans-serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

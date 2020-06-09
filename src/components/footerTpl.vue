@@ -1,5 +1,5 @@
 <template>
-  <header id="header" class="">
+  <footer id="footer" class="">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light is-navbar">
     <div class="container">
       <a class="navbar-brand is-navbar__brand" href="/">
@@ -30,12 +30,12 @@
       </div>
     </div>
   </nav>
-  </header>
+</footer>
 </template>
 
 <script>
 export default {
-  name: 'headerTpl'
+  name: 'footerTpl'
 }
 </script>
 
