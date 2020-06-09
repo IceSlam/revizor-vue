@@ -432,6 +432,148 @@ body {
     transition: all .625s;
   }
 
+  .is-about__img {
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  /* homePageCertifs component */
+
+  .is-certifs .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .is-certifs .col-md-5 {
+    background-repeat: no-repeat !important;
+    background-position: center right !important;
+  }
+
+  .is-certifs__items {
+    padding-top: 5.625em;
+    padding-bottom: 5.625em;
+  }
+
+  .is-certifs__items h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #3F3E3E;
+    margin-bottom: 50px;
+  }
+
+  .is-certifs__items div {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+  }
+
+  .is-certifs__items div div {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 40px;
+    margin-right: 20px;
+    margin-bottom: 2em;
+  }
+
+  .is-certifs__items div div:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  /* feedbackTpl component */
+
+  .is-feedback {
+    padding-top: 5.625em;
+    padding-bottom: 5.1em;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .is-feedback h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 3.125rem;
+  }
+
+  .is-feedback h2 span {
+    font-weight: 300;
+  }
+
+  .is-feedback input[type="text"], .is-feedback input[type="phone"] {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    padding: .375rem 1.25rem !important;
+    height: 54px;
+  }
+
+  .is-feedback textarea {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    padding: 1.25rem !important;
+    height: 54px;
+    height: 120px;
+  }
+
+  .is-btn-feedback {
+    background: linear-gradient(180deg, #4A4A4A 0%, #2C2C2C 100%);
+    box-shadow: 0px 3px 0px #1F1F1F;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-transform: none;
+    transition: all .5s;
+  }
+
+  .is-btn-feedback:hover {
+    background: linear-gradient(180deg, #4A4A4A 0%, #393939 100%);
+    box-shadow: 0px 1px 0px #1F1F1F;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5s;
+  }
+
+  .is-feedback label.custom-control-label {
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .is-feedback label.custom-control-label a {
+    color: #fff;
+    transition: all .5s;
+  }
+
+  .is-feedback label.custom-control-label a:hover {
+    text-decoration: underline;
+    transition: all .5s;
+  }
+
+  .is-feedback input[type="text"]:focus, .is-feedback input[type="phone"]:focus, .is-feedback textarea:focus {
+    border: 2px solid #3F3E3E;
+    transition: all .1s;
+    box-shadow: none;
+  }
+
+
   /* footerTpl component */
    #footer {
      background: #F1F1F1;

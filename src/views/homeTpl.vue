@@ -3,6 +3,7 @@
     <homePageSlider />
     <homePageServices />
     <homePageAbout />
+    <homePageCertifs />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import homePageSlider from '@/components/homePageSlider'
 import homePageServices from '@/components/homePageServices'
 import homePageAbout from '@/components/homePageAbout'
+import homePageCertifs from '@/components/homePageCertifs'
 
 export default {
   name: 'homePage',
   components: {
     homePageSlider,
     homePageServices,
-    homePageAbout
+    homePageAbout,
+    homePageCertifs
   }
 }
 </script>

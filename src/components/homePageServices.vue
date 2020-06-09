@@ -7,7 +7,6 @@
         </h2>
       </div>
       <div class="row is-services__items">
-
         <div v-for="(item, index) in servicesItems" :key="index" class="col-md-4">
           <div class="is-services__item card">
             <div class="is-services__item-content">
@@ -42,6 +41,7 @@ export default {
   props: {},
   data () {
     return {
+      show: true,
       servicesItems: [
         {
           title: 'Бухгалтерский и налоговый учет.',
