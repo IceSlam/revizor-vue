@@ -40,16 +40,5 @@ export default {
 </script>
 
 <style lang="css">
-  .router-link-active {
-    color: red !important;
-  }
-
-  .is-navbar {
-    box-shadow: none;
-  }
-
-  .is-navbar__brand {
-    margin: 30px auto;
-  }
 
 </style>

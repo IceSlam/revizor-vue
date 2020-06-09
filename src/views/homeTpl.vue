@@ -21,8 +21,4 @@ export default {
 
 <style>
 
-  #homePage {
-    font-family: 'Nunito', sans-serif;
-  }
-
 </style>
