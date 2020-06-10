@@ -24,10 +24,10 @@
                 </div>
               </div>
               <div class="row" style="margin-top:2em;">
-                <div class="col-4">
+                <div class="col" style="position: relative;align-items: center;display: flex;">
                   <input class="btn is-btn-feedback" type="submit" name="formSubmit" value="Отправить">
                 </div>
-                <div class="col d-flex" style="align-items:center;">
+                <div class="col-6 d-flex" style="align-items:center;">
                   <div class="custom-control custom-checkbox">
                       <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
                       <label class="custom-control-label" for="defaultUnchecked"><router-link to="/policy">С политикой конфидициальных данных ознакомлен</router-link></label>

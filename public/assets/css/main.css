@@ -249,6 +249,44 @@ body {
     color: #AB35B4;
     background: #fff;
   }
+  .is-footer__phone {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #3F3E3E;
+    transition: all .5s;
+    margin-top: 1em;
+  }
+
+  .is-footer__phone:hover {
+    color: #DE3131;
+  }
+
+  .is-footer__dev-link {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    color: #DE3131;
+    transition: all .5s;
+  }
+
+  .is-footer__dev-link:hover {
+    color: #3F3E3E;
+  }
+
+  .is-footer__dev-img {
+    max-width: 41px;
+    margin-left: .5em;
+    color: #DE3131;
+    background: ;
+  }
 
   .nav-link {
     font-weight: bold;
@@ -789,7 +827,7 @@ body {
 
   .is-feedback input[type="text"]:focus, .is-feedback input[type="phone"]:focus, .is-feedback textarea:focus {
     border: 2px solid #3F3E3E;
-    transition: all .1s;
+    transition: all .05s;
     box-shadow: none;
   }
 

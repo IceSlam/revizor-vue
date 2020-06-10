@@ -18,16 +18,29 @@
               </a>
             </div>
             <div class="col-md-12">
-              <a v-for="(item, index) in socialItems" :key="index" class="btn" :href="item.link" target="_blank">
-                <i :class="item.iconFa"></i>
-              </a>
+              <div style="margin-bottom:.5em">
+                <a v-for="(item, index) in socialItems" :key="index" class="btn" :href="item.link" target="_blank">
+                  <i :class="item.iconFa"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="row">
             <div class="col-md-12">
-              1
+              <div class="row">
+                <div class="col-md-12" style="margin-top:.5em">
+                  <a class="is-footer__phone" href="tel:8-800-000-25-25">
+                    8-800-000-25-25
+                  </a>
+                </div>
+                <div class="col-md-12"  style="margin-top:.5em">
+                  <a class="is-footer__dev-link" href="https://alianscompany.ru">
+                    Разработка сайта <img class="is-footer__dev-img" src="/assets/img/alians_logo.svg" alt="">
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -42,6 +55,11 @@ export default {
   name: 'footerTpl',
   data () {
     return {
+      footerPhone: [
+        {
+          tel: '8-800-000-25-25'
+        }
+      ],
       socialItems: [
         {
           iconFa: 'fab fa-vk',
