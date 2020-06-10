@@ -13,6 +13,19 @@
     margin-top: 1em;
   }
 
+  .is-navbar__collapse .row .col-md-12:first-child a:last-child i {
+    margin-right: .5em;
+  }
+
+  .is-header__phone-block .row {
+    margin-top: 0 !important;
+  }
+
+  .is-header__phone-phone-block {
+    margin: 0 auto !important;
+    margin-top: 0 !important;
+  }
+
   .router-link-active::after {
     display: none;
   }
@@ -23,6 +36,10 @@
 
   .nav-link::after {
     display: none;
+  }
+
+  .nav-item {
+    margin-right: 0;
   }
 
   .is-about__text {
