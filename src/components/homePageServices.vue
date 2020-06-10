@@ -41,7 +41,6 @@ export default {
   props: {},
   data () {
     return {
-      show: true,
       servicesItems: [
         {
           title: 'Бухгалтерский и налоговый учет.',

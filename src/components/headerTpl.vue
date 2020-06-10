@@ -10,23 +10,40 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse is-navbar__collapse" :class="showHeaderMenuClass" id="navbarSupportedContent-333">
-        <ul class="navbar-nav mr-auto justify-center text-center">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/" exact>Главная</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/about">О компании</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/services">Услуги</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/news">Новости</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/contacts">Контакты</router-link>
-          </li>
-        </ul>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#">
+              <i class="fas fa-map-marker-alt "></i>
+              г. Барнаул, ул. Пролетарская, 92
+            </a>
+            <a href="#">
+              <i class="fas fa-envelope"></i>
+              info@info.ru
+            </a>
+          </div>
+          <div class="col-md-12">
+            <ul class="navbar-nav mr-auto justify-center text-center">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/" exact>Главная</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/about">О компании</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/services">Услуги</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/news">Новости</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/contacts">Контакты</router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          3
+        </div>
       </div>
     </div>
   </nav>
