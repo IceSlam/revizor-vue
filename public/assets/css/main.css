@@ -666,6 +666,22 @@ ul ul a:hover {
     margin-left: .5em;
   }
 
+
+    .is-carousel-wrap {
+      max-width:1140px;
+      overflow:hidden;
+      margin:0 auto;
+      position: relative;
+    }
+
+    .is-carousel {
+      display: flex;
+      transition: all .5s ease-in-out;
+    }
+     .is-carousel-item {
+       width: 100% !important;
+     }
+
   .is-slider__text h2 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -683,6 +699,49 @@ ul ul a:hover {
     margin-top: 2.5em;
     line-height: 140%;
     color: #FFFFFF;
+  }
+
+  .is-slide-prev, .is-slide-next {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    transition: all .5s ease-out !important;
+    position: absolute;
+    background: none;
+    top: calc(50% - 22.5px);
+    padding-right: .5em;
+    padding-left: .5em;
+  }
+
+  .is-slide-next {
+    right: 1em;
+  }
+
+  .is-slide-prev {
+    left: 1em;
+  }
+
+  .is-slide-prev:hover, .is-slide-next:hover {
+    transition: all .5s ease-in !important;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .is-slide-prev:focus, .is-slide-next:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .is-slide-prev i, .is-slide-next i {
+    opacity: .1;
+  }
+
+  .is-slide-prev:hover i, .is-slide-next:hover i {
+    font-size: 3em;
+    transition: all .5s ease-in-out !important;
+    opacity: 1;
   }
 
   /* homePageAbout component */

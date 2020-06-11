@@ -1,37 +1,41 @@
 <template>
   <div id="slider" class="is-slider">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-              <div class="is-slider__text">
-                <h2>
-                  Бухгалтерские услуги для вашего бизнеса
-                </h2>
-                <p>
-                  Если Вам нужно решить конкретную проблему, связанную с налогами и бухгалтерией, то стоит обратиться в компанию «Ревизор». Мы можем предоставить весь спектр бухгалтерских и налоговых услуг.
-                </p>
-                <a class="btn is-btn-out" href="https://vk.com/iceslam">
-                  Подробнее об акции
-                  <i class="fas fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img class="img-fluid" src="../assets/img/sliderItem1.png" alt="Бухгалтерские услуги для вашего бизнеса">
-            </div>
-          </div>
+    <div class="">
+      <isSlider
+        :carouselData="sliderItems"
+        :carouselInterval="5000"
+        :carouselItemWidth="1140"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import isSlider from '@/components/slider/sliderTpl'
 
 export default {
   name: 'homePageSlider',
   components: {
+    isSlider
   },
   data () {
     return {
+      sliderItems: [
+        {
+          id: 1,
+          title: 'Бухгалтерские услуги для вашего бизнеса',
+          description: 'Если Вам нужно решить конкретную проблему, связанную с налогами и бухгалтерией, то стоит обратиться в компанию «Ревизор». Мы можем предоставить весь спектр бухгалтерских и налоговых услуг.',
+          img: 'sliderItem1.png',
+          link: 'https://vk.com/iceslam'
+        },
+        {
+          id: 2,
+          title: 'Lorem Ipsum Dolor Akismet Lorem Ipsum',
+          description: 'Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet',
+          img: 'sliderItem2.png',
+          link: 'https://iceslam.ru/'
+        }
+      ]
     }
   },
   methods: {
@@ -40,6 +44,5 @@ export default {
 
 </script>
 
-<style lang="css">
-
+<style lang="css" scoped>
 </style>
