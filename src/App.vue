@@ -10,7 +10,7 @@
 <script>
 import headerTpl from '@/components/headerTpl'
 import footerTpl from '@/components/footerTpl'
-import feedbackTpl from '@/components/feedbackTpl'
+import feedbackTpl from '@/components/feedbackTpl.vue'
 
 export default {
   name: 'App',

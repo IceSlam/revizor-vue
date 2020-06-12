@@ -5,7 +5,10 @@ module.exports = {
     msTileColor: '#fff',
     manifestOptions: {
       background_color: '#fff'
-    }
+    },
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/revisor-msp/'
+    : '/'
   },
 
   css: {

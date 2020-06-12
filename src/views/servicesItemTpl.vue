@@ -17,10 +17,10 @@
 
 <script>
 
-import isBreadCrumbs from '@/components/isBreadCrumbs'
-import serviceItemBlock1 from '@/components/itemBlocks/servBlock1'
-import serviceItemBlock2 from '@/components/itemBlocks/servBlock2'
-import serviceItemBlock3 from '@/components/itemBlocks/servBlock3'
+import isBreadCrumbs from '../components/isBreadCrumbs'
+import serviceItemBlock1 from '../components/itemBlocks/servBlock1'
+import serviceItemBlock2 from '../components/itemBlocks/servBlock2'
+import serviceItemBlock3 from '../components/itemBlocks/servBlock3'
 
 export default {
   name: 'servicesItemPage',
