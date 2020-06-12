@@ -88,11 +88,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sliderItem3.2f2ea14b.png"
   },
   {
+<<<<<<< HEAD:docs/precache-manifest.6525e79a38318ce6ec7a86ad9fe98f8b.js
 <<<<<<< HEAD:docs/precache-manifest.c9d2268be0a6673415dfcdb4de826c3d.js
     "revision": "ec1ea8bf773b220ef09aabb5d2a6036a",
 =======
     "revision": "9cee9b3c66f1f92acc8fb16489cf38ef",
 >>>>>>> parent of 6ff831a... Edited Demo:docs/precache-manifest.6525e79a38318ce6ec7a86ad9fe98f8b.js
+=======
+    "revision": "9cee9b3c66f1f92acc8fb16489cf38ef",
+>>>>>>> parent of 6ff831a... Edited Demo:docs/precache-manifest.9bb69487f49a80bd9b717aa2fbfb52d6.js
     "url": "/index.html"
   },
   {
@@ -100,6 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.b7c4a47d.js"
   },
   {
+<<<<<<< HEAD:docs/precache-manifest.6525e79a38318ce6ec7a86ad9fe98f8b.js
 <<<<<<< HEAD:docs/precache-manifest.c9d2268be0a6673415dfcdb4de826c3d.js
     "revision": "de850d98ab8f5bac4286",
     "url": "/js/app.cbb152dc.js"
@@ -107,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "revision": "d0fea95ca2d170d3b894",
     "url": "/js/app.59ac068f.js"
 >>>>>>> parent of 6ff831a... Edited Demo:docs/precache-manifest.6525e79a38318ce6ec7a86ad9fe98f8b.js
+=======
+    "revision": "d0fea95ca2d170d3b894",
+    "url": "/js/app.59ac068f.js"
+>>>>>>> parent of 6ff831a... Edited Demo:docs/precache-manifest.9bb69487f49a80bd9b717aa2fbfb52d6.js
   },
   {
     "revision": "aad86ac7ba991627ebac",

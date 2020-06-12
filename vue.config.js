@@ -14,5 +14,9 @@ module.exports = {
   css: {
     extract: false
   }
+<<<<<<< HEAD
+}
+>>>>>>> parent of 6ff831a... Edited Demo
+=======
 }
 >>>>>>> parent of 6ff831a... Edited Demo
