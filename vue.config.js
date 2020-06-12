@@ -13,5 +13,7 @@ module.exports = {
 
   css: {
     extract: false
-  }
+  },
+
+  publicPath: '/revisor-msp'
 }
