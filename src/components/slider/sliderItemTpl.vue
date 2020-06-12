@@ -7,7 +7,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid" :src=" require('../../assets/img/' + carouselItemData.img )" :alt="carouselItemData.title">
+            <img class="img-fluid" :src="require('../../assets/img/' + carouselItemData.img )" :alt="carouselItemData.title">
           </div>
         </div>
       </div>

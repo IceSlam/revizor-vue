@@ -2,6 +2,8 @@
   <div id="homePage">
     <vue-headful
       title="Ревизор - Бухгалтерские и юридические услуги"
+      description="Описание"
+      url="vk.com"
     />
     <homePageSlider />
     <homePageServices />

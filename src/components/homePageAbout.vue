@@ -17,7 +17,7 @@
           <div style="display:inline-flex;" class="">
             <a class="btn is-btn-more" href="#">
               <div style="margin-right:.5em;" class="">
-                <img src="/assets/img/btnMore.svg" alt="">
+                <img src="../assets/img/btnMore.svg" alt="">
               </div>
               <div style="white-space: pre-wrap;line-height:1;padding-top:.4em" class="">
                 Читать подробнее
@@ -26,7 +26,7 @@
             </a>
             <a class="btn is-btn-video" href="#">
               <div style="margin-right:.5em;" class="">
-                <img src="/assets/img/btnVideo.svg" alt="">
+                <img src="../assets/img/btnVideo.svg" alt="">
               </div>
               <div style="white-space: pre-wrap;line-height:1;padding-top:.4em" class="">
                 Смотреть видео
@@ -35,7 +35,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 is-about__img" style="background:url(/assets/img/homeAboutImg.jpg)">
+        <div class="col-md-6 is-about__img" style="background:url(../assets/img/homeAboutImg.jpg)">
         </div>
       </div>
   </div>
