@@ -1,2 +1,18 @@
 module.exports = {
+<<<<<<< HEAD
 }
+=======
+  pwa: {
+    themeColor: '#DE3131',
+    name: 'Ревизор МСП',
+    msTileColor: '#fff',
+    manifestOptions: {
+      background_color: '#fff'
+    }
+  },
+
+  css: {
+    extract: false
+  }
+}
+>>>>>>> parent of 6ff831a... Edited Demo
