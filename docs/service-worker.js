@@ -17,6 +17,7 @@ importScripts(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/precache-manifest.c9d2268be0a6673415dfcdb4de826c3d.js"
 =======
   "/precache-manifest.6525e79a38318ce6ec7a86ad9fe98f8b.js"
@@ -27,6 +28,9 @@ importScripts(
 =======
   "/precache-manifest.9bb69487f49a80bd9b717aa2fbfb52d6.js"
 >>>>>>> parent of cb21f3f... Edited demo
+=======
+  "/revisor-msp/precache-manifest.b034dd7616cf9a2dcb3b49a82d023900.js"
+>>>>>>> parent of 6269d02... Edited Demo
 );
 
 workbox.core.setCacheNameDetails({prefix: "revisor-msp"});
