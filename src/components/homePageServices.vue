@@ -46,91 +46,131 @@ export default {
           title: 'Бухгалтерский и налоговый учет.',
           descr: 'Описание для Бухгалтерский и налоговый учет.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Помощь в составлении налоговой и бухгалтерской отчетности.',
           descr: 'Описание для ЕНВД, УСН, НДС, Прибыль, Бух.баланс',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Помощь в составлении з/п отчетности.',
           descr: 'Описание для Помощь в составлении з/п отчетности.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'З-НДФЛ.',
           descr: 'Описание для З-НДФЛ.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Консультации по выбору системы налогооблажения.',
           descr: 'Описание для Консультации по выбору системы налогооблажения.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ.',
           descr: 'Описание для Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Оформление пакета документов при трудоустройстве сотрудников.',
           descr: 'Описание для Оформление пакета документов при трудоустройстве сотрудников.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Регистрация и ликвидация ИП, ООО.',
           descr: 'Описание для Регистрация и ликвидация ИП, ООО.',
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         },
         {
           title: 'Представительство и решение спорных вопросов с ИФНС.',
           descr: 'Описание для Представительство и решение спорных вопросов с ИФНС.',
 <<<<<<< HEAD
-          imgLink: 'servicesIcon1.svg'
-=======
-          imgLink: '/img/servicesIcon1.svg'
->>>>>>> parent of d75e051... Edited Demo
-        },
-        {
-          title: 'Восстановление бухгалтерсокого и налогового учета.',
-          descr: 'Описание для Восстановление бухгалтерсокого и налогового учета.',
 <<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
+        },
+        {
+          title: 'Восстановление бухгалтерсокого и налогового учета.',
+          descr: 'Описание для Восстановление бухгалтерсокого и налогового учета.',
+<<<<<<< HEAD
+<<<<<<< HEAD
+          imgLink: 'servicesIcon1.svg'
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
         }
       ]
     }
