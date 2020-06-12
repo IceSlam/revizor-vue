@@ -31,7 +31,7 @@
               <li class="nav-item">
                 <router-link class="nav-link is-dd-toggle" to="/services" >Услуги</router-link>
                 <ul class="is-dd-menu">
-                  <a class="dropdown-item" href="#">Бухгалтерский и налоговый учет</a>
+                  <router-link class="dropdown-item" to="/services/item1">Бухгалтерский и налоговый учет</router-link>
                   <a class="dropdown-item" href="#">Помощь в составлении налоговой и бухгалтерской отчетности</a>
                   <a class="dropdown-item" href="#">Помощь в составлении з/п отчетности</a>
                   <a class="dropdown-item" href="#">З-НДФЛ</a>

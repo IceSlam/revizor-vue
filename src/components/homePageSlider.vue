@@ -34,6 +34,13 @@ export default {
           description: 'Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet Lorem Ipsum Dolor Akismet',
           img: 'sliderItem2.png',
           link: 'https://iceslam.ru/'
+        },
+        {
+          id: 3,
+          title: 'Lorem ipsum dolor sit amet, consectetur ',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta, cumque dolorum perspiciatis, impedit enim eligendi consectetur inventore architecto eveniet libero quas asperiores',
+          img: 'sliderItem3.png',
+          link: 'https://github.com/'
         }
       ]
     }

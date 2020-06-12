@@ -28,6 +28,15 @@ body {
     transition: all .625s !important;
 }
 
+.dropdown-item.router-link-active::after {
+  display: none;
+}
+
+.dropdown-item.router-link-active {
+  background: #DB4444 !important;
+  transition: all .625s ease-in-out;
+}
+
   .is-navbar {
     box-shadow: none;
     padding: 0 1rem;
@@ -871,46 +880,36 @@ ul ul a:hover {
   .is-certifs .row {
     margin-left: 0;
     margin-right: 0;
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
   }
 
-  .is-certifs .col-md-5 {
-    background-repeat: no-repeat !important;
-    background-position: center right !important;
-  }
-
-  .is-certifs__items {
-    padding-top: 5.625em;
-    padding-bottom: 5.625em;
-  }
-
-  .is-certifs__items h2 {
+  .is-certifs-title {
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 120%;
     color: #3F3E3E;
-    margin-bottom: 50px;
+    margin-left: .5em;
   }
 
-  .is-certifs__items div {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flex;
-    display: inline-flex;
-  }
-
-  .is-certifs__items div div {
+  .is-certifs-item-block {
     background: #FFFFFF;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    padding: 40px;
-    margin-right: 20px;
-    margin-bottom: 2em;
+    padding: 2.5rem 2.625rem;
   }
 
-  .is-certifs__items div div:last-child {
-    margin-right: 0;
-    margin-bottom: 0;
+  .is-certifs-item-text {
+    margin-top: 1.25rem;
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+    color: #3F3E3E;
   }
 
   /* feedbackTpl component */
@@ -1000,6 +999,31 @@ ul ul a:hover {
     transition: all .05s;
     box-shadow: none;
   }
+
+  /* BreadCrumbs component */
+
+  .is-breadcrumb-list {
+    margin-top: 1.9rem;
+    border-bottom: 1px solid #E9E9E9;
+  }
+
+  .is-breadcrumb-list .breadcrumb {
+    background-color: transparent;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .is-breadcrumb-list .breadcrumb li a {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #3F3E3E;
+  }
+
+  /* Services Item coponent */
+
+
 
 
   /* footerTpl component */
