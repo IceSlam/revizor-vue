@@ -1,8 +1,5 @@
 <template>
   <div class="servicesPage">
-    <vue-headful
-      title="Услуги - Ревизор"
-    />
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
       Услуги

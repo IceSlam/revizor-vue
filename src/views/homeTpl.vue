@@ -1,10 +1,13 @@
 <template>
   <div id="homePage">
+<<<<<<< HEAD
     <vue-headful
       title="Ревизор - Бухгалтерские и юридические услуги"
       description="Описание"
       url="vk.com"
     />
+=======
+>>>>>>> parent of 1b5afb8... Added basic files for Services Item page
     <homePageSlider />
     <homePageServices />
     <homePageAbout />

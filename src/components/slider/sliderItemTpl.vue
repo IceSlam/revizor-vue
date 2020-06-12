@@ -7,7 +7,11 @@
             </div>
           </div>
           <div class="col-md-6">
+<<<<<<< HEAD
             <img class="img-fluid" :src="require('../../assets/img/' + carouselItemData.img )" :alt="carouselItemData.title">
+=======
+            <img :src=" require('../../assets/img/' + carouselItemData.img )" :alt="carouselItemData.title">
+>>>>>>> parent of 1b5afb8... Added basic files for Services Item page
           </div>
         </div>
       </div>

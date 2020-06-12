@@ -1,8 +1,5 @@
 <template>
   <div id="newsPage">
-    <vue-headful
-      title="Новости - Ревизор"
-    />
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
       Новости

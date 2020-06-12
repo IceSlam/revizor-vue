@@ -1,8 +1,5 @@
 <template>
   <div id="policyPage">
-    <vue-headful
-      title="Политика конфиденциальности - Ревизор"
-    />
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
       Контакты
