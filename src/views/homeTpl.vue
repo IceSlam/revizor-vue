@@ -1,5 +1,8 @@
 <template>
   <div id="homePage">
+    <vue-headful
+      title="Ревизор - Бухгалтерские и юридические услуги"
+    />
     <homePageSlider />
     <homePageServices />
     <homePageAbout />
@@ -9,10 +12,10 @@
 
 <script>
 
-import homePageSlider from '@/components/homePageSlider'
-import homePageServices from '@/components/homePageServices'
-import homePageAbout from '@/components/homePageAbout'
-import homePageCertifs from '@/components/homePageCertifs'
+import homePageSlider from '../components/homePageSlider'
+import homePageServices from '../components/homePageServices'
+import homePageAbout from '../components/homePageAbout'
+import homePageCertifs from '../components/homePageCertifs'
 
 export default {
   name: 'homePage',

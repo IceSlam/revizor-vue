@@ -1,5 +1,8 @@
 <template>
   <div id="contactsPage">
+    <vue-headful
+      title="Контакты - Ревизор"
+    />
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
       Контакты
