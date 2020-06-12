@@ -47,10 +47,14 @@ export default {
           descr: 'Описание для Бухгалтерский и налоговый учет.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -60,10 +64,14 @@ export default {
           descr: 'Описание для ЕНВД, УСН, НДС, Прибыль, Бух.баланс',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -73,10 +81,14 @@ export default {
           descr: 'Описание для Помощь в составлении з/п отчетности.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -86,10 +98,14 @@ export default {
           descr: 'Описание для З-НДФЛ.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -99,10 +115,14 @@ export default {
           descr: 'Описание для Консультации по выбору системы налогооблажения.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -112,10 +132,14 @@ export default {
           descr: 'Описание для Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -125,10 +149,14 @@ export default {
           descr: 'Описание для Оформление пакета документов при трудоустройстве сотрудников.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -138,10 +166,14 @@ export default {
           descr: 'Описание для Регистрация и ликвидация ИП, ООО.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -151,10 +183,14 @@ export default {
           descr: 'Описание для Представительство и решение спорных вопросов с ИФНС.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
@@ -164,10 +200,14 @@ export default {
           descr: 'Описание для Восстановление бухгалтерсокого и налогового учета.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           imgLink: 'servicesIcon1.svg'
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of d75e051... Edited Demo
+=======
+          imgLink: '/img/servicesIcon1.svg'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
           imgLink: '/img/servicesIcon1.svg'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items

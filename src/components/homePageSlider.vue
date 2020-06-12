@@ -27,6 +27,7 @@
 <script>
 export default {
 <<<<<<< HEAD
+<<<<<<< HEAD
   name: 'homePageSlider',
   components: {
     isSlider
@@ -53,6 +54,9 @@ export default {
   },
   methods: {
   }
+=======
+  name: 'homePageSlider'
+>>>>>>> parent of df41eac... Edited header component + Added contacts info items
 =======
   name: 'homePageSlider'
 >>>>>>> parent of df41eac... Edited header component + Added contacts info items
