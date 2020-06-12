@@ -3,7 +3,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light is-navbar">
     <div class="container">
       <a class="navbar-brand is-navbar__brand" href="/">
-        <img class="is-navbar__brand-logo" src="assets/img/revisor_logo.svg" alt="Ревизор - бухгалтерские и юридические услуги">
+        <img class="is-navbar__brand-logo" src="/assets/img/revisor_logo.svg" alt="Ревизор - бухгалтерские и юридические услуги">
       </a>
       <button class="navbar-toggler" @click="showHeaderMenu" type="button">
         <span class="navbar-toggler-icon"></span>
