@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revisor-msp/img/sliderItem3.2f2ea14b.png"
   },
   {
-    "revision": "e31e1804fe3b283131ec0324eacb264b",
+    "revision": "128109e18f1ad6b02ab07aaf59f1dbbb",
     "url": "/revisor-msp/index.html"
   },
   {
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revisor-msp/js/about.bc9be92c.js"
   },
   {
-    "revision": "2b2049489099abeb9404",
-    "url": "/revisor-msp/js/app.8bd91239.js"
+    "revision": "4478c183f78ef4ec693b",
+    "url": "/revisor-msp/js/app.3c46bb9a.js"
   },
   {
     "revision": "aad86ac7ba991627ebac",
