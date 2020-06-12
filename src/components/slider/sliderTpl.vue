@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import isSliderItem from './sliderItemTpl'
+import isSliderItem from '@/components/slider/sliderItemTpl'
 
 export default {
   name: 'isSlider',

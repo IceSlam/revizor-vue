@@ -15,8 +15,11 @@ module.exports = {
     extract: false
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> parent of 6ff831a... Edited Demo
 =======
+=======
+>>>>>>> parent of cb21f3f... Edited demo
 }
 >>>>>>> parent of 6ff831a... Edited Demo
