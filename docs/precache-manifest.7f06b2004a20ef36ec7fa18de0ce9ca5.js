@@ -1,13 +1,5 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc71b79ce577c1a8e58a2c2be6f39a03",
-    "url": "/assets/css/main.css"
-  },
-  {
-    "revision": "39af335c31dda52c1cd787520f94016e",
-    "url": "/assets/css/media.css"
-  },
-  {
     "revision": "d532c7dd4e5b2b67fb3719519492d039",
     "url": "/assets/img/alians_logo.svg"
   },
@@ -84,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/sliderItem3.56f0cb53.png"
   },
   {
-    "revision": "c307272a63d6e0eb31e9",
-    "url": "/assets/js/about.f5c6d035.js"
+    "revision": "eff7da6bf84713233221",
+    "url": "/assets/js/about.d674120e.js"
   },
   {
-    "revision": "8eb1e259c6dac8da1b07",
-    "url": "/assets/js/app.633a2538.js"
+    "revision": "6b4f794ca20aa60c4b81",
+    "url": "/assets/js/app.1b198e4a.js"
   },
   {
     "revision": "5199c39e02efdd5e9b50",
@@ -100,11 +92,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon.png"
   },
   {
-    "revision": "9f481ca2bb645075524c0d11c4610f41",
+    "revision": "8cf2fdb18f4f2cb7199715190fc6ea65",
     "url": "/index.html"
   },
   {
-    "revision": "46d9887e35df54416fc116a232806687",
+    "revision": "50d1b4d5a35f6dd0ef1d0114c023178b",
     "url": "/manifest.json"
   },
   {

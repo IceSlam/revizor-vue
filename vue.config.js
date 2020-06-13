@@ -1,10 +1,10 @@
 module.exports = {
   pwa: {
-    themeColor: '#DE3131',
-    name: 'Ревизор МСП',
-    msTileColor: '#fff',
+    themeColor: '#F1F1F1',
+    name: 'Ревизор',
+    msTileColor: '#F1F1F1',
     manifestOptions: {
-      background_color: '#fff'
+      background_color: '#F1F1F1'
     }
   },
 

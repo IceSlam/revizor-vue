@@ -937,7 +937,7 @@ ul ul a:hover {
     font-weight: 300;
   }
 
-  .is-feedback input[type="text"], .is-feedback input[type="phone"] {
+  .is-feedback input[type="text"], .is-feedback input[type="tel"] {
     background: #FFFFFF;
     border-radius: 5px;
     border: none;
@@ -994,7 +994,7 @@ ul ul a:hover {
     transition: all .5s;
   }
 
-  .is-feedback input[type="text"]:focus, .is-feedback input[type="phone"]:focus, .is-feedback textarea:focus {
+  .is-feedback input[type="text"]:focus, .is-feedback input[type="tel"]:focus, .is-feedback textarea:focus {
     border: 2px solid #3F3E3E;
     transition: all .05s;
     box-shadow: none;

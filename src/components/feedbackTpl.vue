@@ -15,7 +15,7 @@
                   <input type="text" class="form-control" placeholder="Имя">
                 </div>
                 <div class="col">
-                  <input type="phone" class="form-control" placeholder="Телефон">
+                  <input type="tel" class="form-control" placeholder="Телефон">
                 </div>
               </div>
               <div class="row" style="margin-top:2em;">
