@@ -12,15 +12,15 @@
         <div class="col-md-8">
           <div class="row">
             <div class="col-md-12">
-              <a v-for="item in contactsItems" :key="item" :href="item.link" target="_blank">
-                <i :class="item.iconFa"></i>
-                {{ item.name }}
+              <a v-for="(contactItem, index) in contactsItems" :key="index" :href="contactItem.link" target="_blank">
+                <i :class="contactItem.iconFa"></i>
+                {{ contactItem.name }}
               </a>
             </div>
             <div class="col-md-12">
               <div style="margin-bottom:.5em">
-                <a v-for="(item, index) in socialItems" :key="index" class="btn" :href="item.link" target="_blank">
-                  <i :class="item.iconFa"></i>
+                <a v-for="(socialItem, index) in socialItems" :key="index" class="btn" :href="socialItem.link" target="_blank">
+                  <i :class="socialItem.iconFa"></i>
                 </a>
               </div>
             </div>
@@ -55,11 +55,6 @@ export default {
   name: 'footerTpl',
   data () {
     return {
-      footerPhone: [
-        {
-          tel: '8-800-000-25-25'
-        }
-      ],
       socialItems: [
         {
           iconFa: 'fab fa-vk',
