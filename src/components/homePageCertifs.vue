@@ -9,7 +9,7 @@
             Дипломы и сертификаты
           </h2>
           <div class="row">
-            <div v-for="certifItem in certifsItems" :key="certifItem" class="col-md-6 is-certifs-item">
+            <div v-for="(certifItem, index) in certifsItems" :key="index" class="col-md-6 is-certifs-item">
               <div class="is-certifs-item-block">
                 <img :src="certifItem.img" alt="" class="img-fluid">
               </div>
