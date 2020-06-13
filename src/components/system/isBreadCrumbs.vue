@@ -7,13 +7,8 @@
             Главная
           </a>
         </li>
-        <li class="breadcrumb-item">
-          <a href="/services" class="">
-            Услуги
-          </a>
-        </li>
         <li class="breadcrumb-item active">
-          Бухгалтерский и налоговый учет
+          Пример страницы
         </li>
       </ol>
     </nav>

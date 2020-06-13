@@ -5,6 +5,7 @@
         title="Контактная информация - Ревизор"
         description="Контактная информация компании Ревизор"
       />
+        <isBreadCrumbs />
       <div class="row is-contacts__info">
         <div class="col-md-12">
           <h2>
@@ -35,9 +36,12 @@
 
 <script>
 
+import isBreadCrumbs from '@/components/system/isBreadCrumbs'
+
 export default {
   name: 'contactsPage',
   components: {
+    isBreadCrumbs
   }
 }
 </script>

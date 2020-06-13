@@ -1,21 +1,24 @@
 <template>
-  <div id="newsPage">
+  <div id="news-page" class="is-news container">
     <vue-headful
       title="Новости компании - Ревизор"
       description="Новости компании Ревизор"
     />
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h2>
-      Новости
-    </h2>
+    <isBreadCrumbs />
+    <newsPageItems />
   </div>
 </template>
 
 <script>
 
+import isBreadCrumbs from '@/components/system/isBreadCrumbs'
+import newsPageItems from '@/components/newsPageItems'
+
 export default {
   name: 'newsPage',
   components: {
+    isBreadCrumbs,
+    newsPageItems
   }
 }
 </script>

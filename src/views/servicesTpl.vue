@@ -1,21 +1,26 @@
 <template>
-  <div class="servicesPage">
+  <div id="services-page"  class="is-services">
     <vue-headful
       title="Услуги компании - Ревизор"
       description="Перечень услуг компании Ревизор"
     />
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h2>
-      Услуги
-    </h2>
+    <div class="container">
+      <isBreadCrumbs />
+      <homePageServices />
+    </div>
   </div>
 </template>
 
 <script>
 
+import isBreadCrumbs from '@/components/system/isBreadCrumbs'
+import homePageServices from '@/components/homePageServices'
+
 export default {
   name: 'servicesPage',
   components: {
+    isBreadCrumbs,
+    homePageServices
   }
 }
 </script>
