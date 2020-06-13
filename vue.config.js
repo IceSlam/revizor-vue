@@ -1,7 +1,4 @@
 module.exports = {
-<<<<<<< HEAD
-}
-=======
   pwa: {
     themeColor: '#DE3131',
     name: 'Ревизор МСП',
@@ -13,13 +10,7 @@ module.exports = {
 
   css: {
     extract: false
-  }
-<<<<<<< HEAD
-<<<<<<< HEAD
+  },
+
+  assetsDir: 'assets'
 }
->>>>>>> parent of 6ff831a... Edited Demo
-=======
-=======
->>>>>>> parent of cb21f3f... Edited demo
-}
->>>>>>> parent of 6ff831a... Edited Demo

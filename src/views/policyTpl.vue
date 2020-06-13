@@ -2,7 +2,7 @@
   <div id="policyPage">
     <img alt="Vue logo" src="../assets/logo.png">
     <h2>
-      Контакты
+      Политика конфиденциальности
     </h2>
   </div>
 </template>

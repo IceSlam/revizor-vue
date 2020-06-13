@@ -3,23 +3,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light is-navbar">
     <div class="container">
       <a class="navbar-brand is-navbar__brand" href="/">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         <img class="is-navbar__brand-logo" src="../assets/img/revisor_logo.svg" alt="Ревизор - бухгалтерские и юридические услуги">
-=======
-        <img class="is-navbar__brand-logo" src="/assets/img/revisor_logo.svg" alt="Ревизор - бухгалтерские и юридические услуги">
->>>>>>> parent of 6269d02... Edited Demo
-=======
-        <img class="is-navbar__brand-logo" src="assets/img/revisor_logo.svg" alt="Ревизор - бухгалтерские и юридические услуги">
->>>>>>> parent of d75e051... Edited Demo
-=======
-        <img class="is-navbar__brand-logo" src="../assets/img/revisorLogo.png" alt="Ревизор - бухгалтерские и юридические услуги">
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
-=======
-        <img class="is-navbar__brand-logo" src="../assets/img/revisorLogo.png" alt="Ревизор - бухгалтерские и юридические услуги">
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
       </a>
       <button class="navbar-toggler" @click="showHeaderMenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,8 +30,6 @@
                 <router-link class="nav-link" to="/about">О компании</router-link>
               </li>
               <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <router-link class="nav-link is-dd-toggle" to="/services" >Услуги</router-link>
                 <ul class="is-dd-menu">
                   <a class="dropdown-item" href="#">Бухгалтерский и налоговый учет</a>
@@ -60,12 +42,6 @@
                   <a class="dropdown-item" href="#">Регистрация и ликвидация ИП, ООО</a>
                   <a class="dropdown-item" href="#">Представительство и решение спорных вопросов с ИФНС</a>
                 </ul>
-=======
-                <router-link class="nav-link" to="/services">Услуги</router-link>
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
-=======
-                <router-link class="nav-link" to="/services">Услуги</router-link>
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/news">Новости</router-link>
@@ -76,8 +52,6 @@
             </ul>
           </div>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <div class="col-md-4 is-header__phone-block">
           <div class="row" style="margin-top:-45px;">
             <div class="col-md-12 is-header__phone-phone-block">
@@ -92,14 +66,6 @@
               </a>
             </div>
           </div>
-=======
-        <div class="">
-          3
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
-=======
-        <div class="">
-          3
->>>>>>> parent of df41eac... Edited header component + Added contacts info items
         </div>
       </div>
     </div>

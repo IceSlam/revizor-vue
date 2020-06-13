@@ -3,7 +3,9 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import vueHeadful from 'vue-headful'
 
+Vue.component('vue-headful', vueHeadful)
 Vue.config.productionTip = false
 
 new Vue({
