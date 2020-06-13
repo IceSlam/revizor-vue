@@ -110,4 +110,10 @@
     margin-right: 5px;
   }
 
+  /* Slider component */
+
+  .is-carousel-item {
+    max-width: 575px !important;
+  }
+
 }

@@ -1,5 +1,5 @@
 <template lang="html">
-      <div class="is-carousel-item" :style="{'min-width': carouselItemMinWidth + 'px !important'}">
+      <div class="is-carousel-item" :style="{'min-width': carouselItemMinWidth + 'px'}">
         <div class="row" style="margin-left:0;margin-right:0;">
           <div class="col-md-6">
             <div class="is-carousel-item__content">

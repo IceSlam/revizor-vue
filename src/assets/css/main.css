@@ -1180,7 +1180,46 @@ ul ul a:hover {
     margin-right: 1rem;
   }
 
+  /* contactsTpl component */
 
+  .is-contacts__info {
+    margin-left:0;
+    margin-right:0;
+    padding-top:4.25rem;
+    padding-bottom:4.25rem
+  }
+
+  .is-contacts__info h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #3F3E3E;
+  }
+
+  .is-contacts__info-details {
+    margin-top: 2rem;
+  }
+
+  .is-contacts__info-details h3 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 120%;
+    color: #3F3E3E;
+    margin-bottom: 2rem;
+  }
+
+  .is-contacts__info-details p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3E3E;
+  }
 
   /* footerTpl component */
    #footer {

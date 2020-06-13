@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/logo.82b9c7a5.png"
   },
   {
+    "revision": "3acd1c96ad63bd61634bc08b581cf1d5",
+    "url": "/assets/img/map.3acd1c96.png"
+  },
+  {
     "revision": "3014eac0910355a6bed849aa39a0c63f",
     "url": "/assets/img/revisorLogo.3014eac0.png"
   },
@@ -92,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/sphere-block-bg.e3b2d0b9.jpg"
   },
   {
-    "revision": "d16dc5a767a47755a500",
-    "url": "/assets/js/about.8bc8d729.js"
+    "revision": "ba9357ba515a5fe6293f",
+    "url": "/assets/js/about.1dc34262.js"
   },
   {
-    "revision": "0963fa6b5492e71dda71",
-    "url": "/assets/js/app.6016175d.js"
+    "revision": "492e62e14f99cd20ea8d",
+    "url": "/assets/js/app.7b625547.js"
   },
   {
     "revision": "5199c39e02efdd5e9b50",
@@ -108,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon.png"
   },
   {
-    "revision": "5b366137b6fc08a76c6b739487d36aeb",
+    "revision": "7cf975752895027360cc5f8877760e76",
     "url": "/index.html"
   },
   {
