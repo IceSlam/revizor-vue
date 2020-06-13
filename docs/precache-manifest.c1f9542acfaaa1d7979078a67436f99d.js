@@ -1,9 +1,5 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d532c7dd4e5b2b67fb3719519492d039",
-    "url": "/assets/img/alians_logo.d532c7dd.svg"
-  },
-  {
     "revision": "7f09d58ae533399e79eb8ca2d1f4e55c",
     "url": "/assets/img/btnMore.7f09d58a.svg"
   },
@@ -48,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/js/about-legacy.f5c6d035.js"
   },
   {
-    "revision": "4a7ce47026767f440bbc",
-    "url": "/assets/js/app-legacy.4866814c.js"
+    "revision": "666e12521e6600928fe6",
+    "url": "/assets/js/app-legacy.e919d718.js"
   },
   {
     "revision": "5199c39e02efdd5e9b50",
     "url": "/assets/js/chunk-vendors-legacy.a9c8e525.js"
   },
   {
-    "revision": "baad800cb1338c581fcd6df716ce0a0d",
+    "revision": "449026a04d9083070830139ebe190665",
     "url": "/index.html"
   },
   {
