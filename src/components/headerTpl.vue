@@ -27,12 +27,12 @@
                 <router-link class="nav-link" to="/" exact>Главная</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="about">О компании</router-link>
+                <router-link class="nav-link" to="/about">О компании</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link is-dd-toggle" to="services" >Услуги</router-link>
+                <router-link class="nav-link is-dd-toggle" to="/services" >Услуги</router-link>
                 <ul class="is-dd-menu">
-                  <a class="dropdown-item" href="#">Бухгалтерский и налоговый учет</a>
+                  <router-link :to="{ path: '/services/item1' }" class="dropdown-item" append>Бухгалтерский и налоговый учет</router-link>
                   <a class="dropdown-item" href="#">Помощь в составлении налоговой и бухгалтерской отчетности</a>
                   <a class="dropdown-item" href="#">Помощь в составлении з/п отчетности</a>
                   <a class="dropdown-item" href="#">З-НДФЛ</a>
@@ -44,10 +44,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="news">Новости</router-link>
+                <router-link class="nav-link" to="/news">Новости</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="contacts">Контакты</router-link>
+                <router-link class="nav-link" to="/contacts">Контакты</router-link>
               </li>
             </ul>
           </div>

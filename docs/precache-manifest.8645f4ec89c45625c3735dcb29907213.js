@@ -1,5 +1,17 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "cdb9da7dc2e3cd198b385b7fc429ca31",
+    "url": "/assets/img/advantage-block-bg.cdb9da7d.jpg"
+  },
+  {
+    "revision": "cdb9da7dc2e3cd198b385b7fc429ca31",
+    "url": "/assets/img/advantage-block-bg.jpg"
+  },
+  {
+    "revision": "3e5f322fc38d0b22b2937eea961fcdcf",
+    "url": "/assets/img/advantage-list-style.3e5f322f.svg"
+  },
+  {
     "revision": "d532c7dd4e5b2b67fb3719519492d039",
     "url": "/assets/img/alians_logo.svg"
   },
@@ -76,12 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/sliderItem3.56f0cb53.png"
   },
   {
-    "revision": "eff7da6bf84713233221",
-    "url": "/assets/js/about.d674120e.js"
+    "revision": "e3b2d0b9e3130f11d2d6a21499821e68",
+    "url": "/assets/img/sphere-block-bg.e3b2d0b9.jpg"
   },
   {
-    "revision": "6b4f794ca20aa60c4b81",
-    "url": "/assets/js/app.1b198e4a.js"
+    "revision": "d16dc5a767a47755a500",
+    "url": "/assets/js/about.8bc8d729.js"
+  },
+  {
+    "revision": "0963fa6b5492e71dda71",
+    "url": "/assets/js/app.6016175d.js"
   },
   {
     "revision": "5199c39e02efdd5e9b50",
@@ -92,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon.png"
   },
   {
-    "revision": "8cf2fdb18f4f2cb7199715190fc6ea65",
+    "revision": "5b366137b6fc08a76c6b739487d36aeb",
     "url": "/index.html"
   },
   {

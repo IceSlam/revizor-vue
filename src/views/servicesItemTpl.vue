@@ -1,5 +1,5 @@
 <template>
-  <div class="servicesItemPage">
+  <div id="services-item" class="is-services-item">
     <vue-headful
       title="Бухгалтерский и налоговый учет - Услуги компании - Ревизор"
     />
@@ -9,26 +9,26 @@
         Ведение бухгалтерского и налогового учета
       </h2>
     </div>
-    <serviceItemBlock1 />
-    <serviceItemBlock2 />
-    <serviceItemBlock3 />
+    <servicesItemAdvantages />
+    <servicesItemResults />
+    <servicesItemSpheres />
   </div>
 </template>
 
 <script>
 
-import isBreadCrumbs from '@/components/isBreadCrumbs'
-import serviceItemBlock1 from '@/components/itemBlocks/servBlock1'
-import serviceItemBlock2 from '@/components/itemBlocks/servBlock2'
-import serviceItemBlock3 from '@/components/itemBlocks/servBlock3'
+import isBreadCrumbs from '@/components/system/isBreadCrumbs'
+import servicesItemAdvantages from '@/components/itemBlocks/servBlock1'
+import servicesItemResults from '@/components/itemBlocks/servBlock2'
+import servicesItemSpheres from '@/components/itemBlocks/servBlock3'
 
 export default {
   name: 'servicesItemPage',
   components: {
     isBreadCrumbs,
-    serviceItemBlock1,
-    serviceItemBlock2,
-    serviceItemBlock3
+    servicesItemAdvantages,
+    servicesItemResults,
+    servicesItemSpheres
   }
 }
 </script>
