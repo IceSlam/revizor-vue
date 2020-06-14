@@ -8,7 +8,7 @@
           </span>
         </h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <form @submit.prevent="submit">
               <div class="row">
                 <div class="col">
@@ -36,7 +36,7 @@
               </div>
             </form>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
 
           </div>
         </div>

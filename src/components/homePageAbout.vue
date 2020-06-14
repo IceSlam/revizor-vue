@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="is-about">
       <div class="row is-about__row" >
-        <div class="col-md-6 is-about__text">
+        <div class="col-md-9 col-lg-6 is-about__text">
           <h2>
             О компании
           </h2>
@@ -14,7 +14,7 @@
           <p>
             Очень многие наши клиенты сотрудничают с нами с года основания или с момента создания своего бизнеса, и для нас это очень ценно: мы помогаем развиваться нашим клиентам и развиваемся сами.
           </p>
-          <div style="display:inline-flex;" class="">
+          <div class="is-home__about-block">
             <a class="btn is-btn-more" href="#">
               <div style="margin-right:.5em;" class="">
                 <img src="../assets/img/btnMore.svg" alt="">
@@ -35,7 +35,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 is-about__img" style="background:url(../assets/img/homeAboutImg.jpg)">
+        <div class="col-md-3 col-lg-6 is-about__img" style="background:url(../assets/img/homeAboutImg.jpg)">
         </div>
       </div>
   </div>

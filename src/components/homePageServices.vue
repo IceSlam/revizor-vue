@@ -7,7 +7,7 @@
         </h2>
       </div>
       <div class="row is-services__items">
-        <div v-for="(item, index) in servicesItems" :key="index" class="col-md-4">
+        <div v-for="(item, index) in servicesItems" :key="index" class="col-md-6 col-lg-4">
           <div class="is-services__item card">
             <div class="is-services__item-content">
               <img :src="item.imgLink" :alt="item.title">

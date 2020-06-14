@@ -86,12 +86,12 @@
           </div>
           <div class="col-md-4 is-header__phone-block">
           <div class="row" style="margin-top:-45px;">
-            <div class="col-md-12 is-header__phone-phone-block">
+            <div class="col-md-12 is-header__phone-item-block">
               <a class="is-header__phone" href="tel:8-800-000-25-25">
                 8-800-000-25-25
               </a>
             </div>
-            <div class="col-md-12"  style="margin-top:0em;bottom:10px;justify-content:center;display:flex;">
+            <div class="col-md-12 is-header__callback-block">
               <a
                 class="is-header__callback"
                 href="#"

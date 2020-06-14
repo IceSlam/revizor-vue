@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
   .is-modal-wrapper {
     background: rgba(222,49,49,.5);
     width: 100vw;

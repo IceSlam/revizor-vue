@@ -2,9 +2,9 @@
   <div id="certifs" class="is-certifs">
     <div class="container">
       <div class="row" style="background: rgba(0, 0, 0, 0) url(/assets/img/homeCertifsImg.png);background-position:-30% 30%;background-repeat:no-repeat;">
-        <div class="col-md-4">
+        <div class="col-md-12 col-lg-4">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-12 col-lg-8">
           <h2 class="is-certifs-title">
             Дипломы и сертификаты
           </h2>

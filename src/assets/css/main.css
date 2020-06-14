@@ -101,6 +101,13 @@ body {
     margin-left: 1em;
   }
 
+  .is-header__callback-block {
+    margin-top:0em;
+    bottom:10px;
+    justify-content:center;
+    display:flex;
+  }
+
   .is-header__callback {
     font-family: Nunito;
     font-style: normal;
@@ -778,6 +785,10 @@ ul ul a:hover {
     font-size: 40px;
     line-height: 120%;
     color: #3F3E3E;
+  }
+
+  .is-home__about-block {
+    display:inline-flex;
   }
 
   .is-btn-more {
