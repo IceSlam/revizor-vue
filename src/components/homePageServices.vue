@@ -7,6 +7,11 @@
         </h2>
       </div>
       <div class="row is-services__items">
+        <servicesItemElem
+          v-for="servicesItem in servicesData"
+          :key="servicesItem.id"
+          :servicesItemData="servicesItem"
+        />
         <div v-for="(item, index) in servicesItems" :key="index" class="col-md-6 col-lg-4">
           <div class="is-services__item card">
             <div class="is-services__item-content">
@@ -36,65 +41,24 @@
 </template>
 
 <script>
+
+import servicesItemElem from '@/components/servicesItemElemTpl'
+
 export default {
   name: 'homePageServices',
-  props: {},
-  data () {
-    return {
-      servicesItems: [
-        {
-          title: 'Бухгалтерский и налоговый учет.',
-          descr: 'Описание для Бухгалтерский и налоговый учет.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Помощь в составлении налоговой и бухгалтерской отчетности.',
-          descr: 'Описание для Помощь в составлении налоговой и бухгалтерской отчетности.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Помощь в составлении з/п отчетности.',
-          descr: 'Описание для Помощь в составлении з/п отчетности.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'З-НДФЛ.',
-          descr: 'Описание для З-НДФЛ.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Консультации по выбору системы налогооблажения.',
-          descr: 'Описание для Консультации по выбору системы налогооблажения.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ.',
-          descr: 'Описание для Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Оформление пакета документов при трудоустройстве сотрудников.',
-          descr: 'Описание для Оформление пакета документов при трудоустройстве сотрудников.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Регистрация и ликвидация ИП, ООО.',
-          descr: 'Описание для Регистрация и ликвидация ИП, ООО.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Представительство и решение спорных вопросов с ИФНС.',
-          descr: 'Описание для Представительство и решение спорных вопросов с ИФНС.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        },
-        {
-          title: 'Восстановление бухгалтерсокого и налогового учета.',
-          descr: 'Описание для Восстановление бухгалтерсокого и налогового учета.',
-          imgLink: '/assets/img/servicesIcon1.svg'
-        }
-      ]
+  components: {
+    servicesItemElem
+  },
+  props: {
+    servicesData: {
+      type: Array,
+      default: () => {
+        return []
+      }
     }
-  }
+  },
+  data: () => ({
+  })
 }
 
 </script>

@@ -4,7 +4,7 @@
       <div class="row">
         <isSlider
           :carouselData="sliderItems"
-          :carouselInterval="0"
+          :carouselInterval="5000"
           :carouselItemWidth="1140"
         />
       </div>

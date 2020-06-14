@@ -4,6 +4,24 @@
     <router-view/>
     <feedbackTpl />
     <footerTpl />
+    <!--
+      ////////////////////////////////////////////////////
+      Project: Ревизор
+      Version: 1.0
+      Web-site: https://site.ru
+      Project web-site: https://iceslam.ru/dev/revisor
+      GitHub: https://github.com/IceSlam/revisor-msp
+      Platform: WordPress REST API + VueJS
+      Used Modules: Vue-CLI, Vue Router, AXIOS, Vuex, PWA
+      ///////////////////////////////////////////////////
+      Author: IceSlam
+      Web-site: https://iceslam.ru/
+      GitHub: https://github.com/IceSlam
+      VK: https://vk.com/iceslam
+      Instagram: https://instagram.com/iceslamru
+      Telegram: https://t.me/IceSlam
+      ///////////////////////////////////////////////////
+    -->
   </div>
 </template>
 
