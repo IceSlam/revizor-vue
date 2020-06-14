@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/js/about.4da20592.js"
   },
   {
-    "revision": "c8879bd77bc926fcb481",
-    "url": "/assets/js/app.9ddcde54.js"
+    "revision": "1b80de44ff633d02d228",
+    "url": "/assets/js/app.17a8d3b8.js"
   },
   {
     "revision": "5199c39e02efdd5e9b50",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon.png"
   },
   {
-    "revision": "4f15126b12a782ee6c44050e761bf133",
+    "revision": "5d3277b72eca5da53d9308e091344961",
     "url": "/index.html"
   },
   {

@@ -9,7 +9,7 @@ export default {
   name: 'isCertifsItem',
   props: {
     certifsItemData: {
-      type: Object,
+      type: Array,
       default: () => {}
     }
   }

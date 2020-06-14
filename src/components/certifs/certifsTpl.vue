@@ -1,11 +1,20 @@
 <template lang="html">
   <div class="row">
+    <isModalLite
+      v-if="isModalLiteVisible"
+      @closeModalLite="closeModalLite"
+    >
+    <img style="width:100%;margin-top:-1em" src="/assets/img/certif2.jpg" alt="">
+    </isModalLite>
     <isCertifsItem
       v-for="certifsItem in certifsData"
       :key="certifsItem.id"
       :certifsItemData="certifsData"
     >
-      <div class="is-certifs-item-block">
+      <div
+        class="is-certifs-item-block"
+        @click="showModalLite"
+      >
         <img :src="certifsItem.img" alt="" class="img-fluid">
         <div class="is-certifs-hover-bg">
         </div>
@@ -20,16 +29,31 @@
 
 <script>
 import isCertifsItem from '@/components/certifs/certifsItemTpl'
+import isModalLite from '@/components/modal/isModalLite'
 
 export default {
   name: 'isCertifs',
   components: {
-    isCertifsItem
+    isCertifsItem,
+    isModalLite
+  },
+  data () {
+    return {
+      isModalLiteVisible: false
+    }
   },
   props: {
     certifsData: {
       type: Array,
       default: () => []
+    }
+  },
+  methods: {
+    showModalLite () {
+      this.isModalLiteVisible = true
+    },
+    closeModalLite () {
+      this.isModalLiteVisible = false
     }
   }
 }
@@ -42,7 +66,7 @@ export default {
   }
 
   .is-certifs-item-block .is-certif-fullscreen-btn {
-    z-index:2001;
+    z-index:1101;
     position:absolute;
     top: calc(50% - 10px);
     left: calc(50% - 10px);
@@ -54,7 +78,7 @@ export default {
     width:100% !important;
     height:100% !important;
     background: rgba(222,49,49,.7);
-    z-index:2000;
+    z-index:1100;
     position: absolute;
     top:9.2%;
     left:13%;
