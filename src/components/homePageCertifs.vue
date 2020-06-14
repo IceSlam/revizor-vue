@@ -8,16 +8,9 @@
           <h2 class="is-certifs-title">
             Дипломы и сертификаты
           </h2>
-          <div class="row">
-            <div v-for="(certifItem, index) in certifsItems" :key="index" class="col-md-6 is-certifs-item">
-              <div class="is-certifs-item-block">
-                <img :src="certifItem.img" alt="" class="img-fluid">
-              </div>
-              <p class="is-certifs-item-text">
-                {{ certifItem.name }}
-              </p>
-            </div>
-          </div>
+          <isCertifs
+            :certifsData="certifsDataItems"
+          />
         </div>
       </div>
     </div>
@@ -25,12 +18,17 @@
 </template>
 
 <script>
+import isCertifs from '@/components/certifs/certifsTpl'
+
 export default {
   name: 'homePageCertifs',
+  components: {
+    isCertifs
+  },
   props: {},
   data () {
     return {
-      certifsItems: [
+      certifsDataItems: [
         {
           id: 1,
           name: 'Квалификационный аттестат профессионального бухгалтера коммерческой организации',
