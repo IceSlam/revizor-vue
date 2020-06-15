@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.78ee0087d594f16155282c14d812ab19.js"
+  "/precache-manifest.2695355df6f285632847a2e8baccb0c4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "revisor-msp"});
