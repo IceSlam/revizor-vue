@@ -6,13 +6,16 @@
     />
     <div class="container">
       <isBreadCrumbs />
-      <homePageServices />
+      <homePageServices
+        :servicesData="SERVICES"
+      />
     </div>
   </div>
 </template>
 
 <script>
 
+import { mapActions, mapGetters } from 'vuex'
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 import homePageServices from '@/components/homePageServices'
 
@@ -21,6 +24,19 @@ export default {
   components: {
     isBreadCrumbs,
     homePageServices
+  },
+  computed: {
+    ...mapGetters([
+      'SERVICES'
+    ])
+  },
+  mounted () {
+    this.GET_SERVICES_FROM_API()
+  },
+  methods: {
+    ...mapActions([
+      'GET_SERVICES_FROM_API'
+    ])
   }
 }
 </script>

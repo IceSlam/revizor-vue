@@ -15,7 +15,7 @@
             Очень многие наши клиенты сотрудничают с нами с года основания или с момента создания своего бизнеса, и для нас это очень ценно: мы помогаем развиваться нашим клиентам и развиваемся сами.
           </p>
           <div class="is-home__about-block">
-            <a class="btn is-btn-more" href="#">
+            <router-link class="btn is-btn-more is-router-link-to" to="/about">
               <div style="margin-right:.5em;" class="">
                 <img src="../assets/img/btnMore.svg" alt="">
               </div>
@@ -23,7 +23,7 @@
                 Читать подробнее
   <span>о компании</span>
               </div>
-            </a>
+            </router-link>
             <a class="btn is-btn-video" href="#">
               <div style="margin-right:.5em;" class="">
                 <img src="../assets/img/btnVideo.svg" alt="">

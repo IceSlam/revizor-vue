@@ -9,26 +9,17 @@
         Ведение бухгалтерского и налогового учета
       </h2>
     </div>
-    <servicesItemAdvantages />
-    <servicesItemResults />
-    <servicesItemSpheres />
   </div>
 </template>
 
 <script>
 
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
-import servicesItemAdvantages from '@/components/itemBlocks/servBlock1'
-import servicesItemResults from '@/components/itemBlocks/servBlock2'
-import servicesItemSpheres from '@/components/itemBlocks/servBlock3'
 
 export default {
-  name: 'servicesItemPage',
+  name: 'newsItemPage',
   components: {
-    isBreadCrumbs,
-    servicesItemAdvantages,
-    servicesItemResults,
-    servicesItemSpheres
+    isBreadCrumbs
   }
 }
 </script>

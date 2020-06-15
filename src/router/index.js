@@ -13,32 +13,37 @@ const routes = [
   {
     path: '/about',
     name: 'aboutPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/aboutTpl')
+    component: () => import('../views/aboutTpl')
   },
   {
     path: '/services',
     name: 'servicesPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/servicesTpl')
+    component: () => import('../views/servicesTpl')
   },
   {
     path: '/services/:slug',
     name: 'servicesItemPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/servicesItemPageTpl')
+    component: () => import('../views/servicesItemPageTpl')
   },
   {
     path: '/news',
     name: 'newsPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/newsTpl')
+    component: () => import('../views/newsTpl')
+  },
+  {
+    path: '/news/:slug',
+    name: 'newsItemPage',
+    component: () => import('../views/newsItemPageTpl')
   },
   {
     path: '/contacts',
     name: 'contactsPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/contactsTpl')
+    component: () => import('../views/contactsTpl')
   },
   {
     path: '/policy',
     name: 'policyPage',
-    component: () => import(/* webpackChunkName: "about" */ '../views/policyTpl')
+    component: () => import('../views/policyTpl')
   }
 ]
 

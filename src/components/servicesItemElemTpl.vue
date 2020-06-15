@@ -2,7 +2,7 @@
   <div class="col-md-6 col-lg-4">
     <div class="is-services__item card">
       <div class="is-services__item-content">
-        <img src="https://a.al-dev.ru/assets/img/servicesIcon1.svg" :alt="servicesItemData.title.rendered">
+        <img :src="servicesItemData.acf.service_icon" :alt="servicesItemData.title.rendered">
         <div>
           <p>
             {{ servicesItemData.title.rendered }}

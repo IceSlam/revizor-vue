@@ -5,12 +5,15 @@
       description="Новости компании Ревизор"
     />
     <isBreadCrumbs />
-    <newsPageItems />
+    <newsPageItems
+      :newsData="NEWS"
+    />
   </div>
 </template>
 
 <script>
 
+import { mapActions, mapGetters } from 'vuex'
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 import newsPageItems from '@/components/newsPageItems'
 
@@ -19,6 +22,19 @@ export default {
   components: {
     isBreadCrumbs,
     newsPageItems
+  },
+  computed: {
+    ...mapGetters([
+      'NEWS'
+    ])
+  },
+  mounted () {
+    this.GET_NEWS_FROM_API()
+  },
+  methods: {
+    ...mapActions([
+      'GET_NEWS_FROM_API'
+    ])
   }
 }
 </script>
