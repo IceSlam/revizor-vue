@@ -11,7 +11,7 @@
             <i class="fas fa-chevron-right"></i>
           </p>
           <router-link class="btn is-btn is-router-link-to" :to="'/news/' + newsItemData.slug">
-            Подробнее об услуге
+            Подробнее
           </router-link>
         </div>
         <p v-html="newsItemData.excerpt.rendered" class="is-news__item-description">

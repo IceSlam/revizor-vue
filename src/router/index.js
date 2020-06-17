@@ -21,7 +21,7 @@ const routes = [
     component: () => import('../views/servicesTpl')
   },
   {
-    path: '/services/:slug',
+    path: '/services/item/',
     name: 'servicesItemPage',
     component: () => import('../views/servicesItemPageTpl')
   },
@@ -50,7 +50,10 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 
 export default router

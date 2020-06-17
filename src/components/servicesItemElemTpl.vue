@@ -10,12 +10,11 @@
           <p class="is-services__item-chevron">
             <i class="fas fa-chevron-right"></i>
           </p>
-          <router-link class="btn is-btn is-router-link-to" :to="'/services/' + servicesItemData.slug">
+          <a @click.prevent="servicesItemClick" class="btn is-btn is-router-link-to" >
             Подробнее об услуге
-          </router-link>
+          </a>
         </div>
-        <p v-html="servicesItemData.excerpt.rendered" class="is-services__item-description">
-          {{ servicesItemData.excerpt.rendered }}
+        <p v-html="servicesItemData.acf.service_longtitle" class="is-services__item-description">
         </p>
       </div>
     </div>
@@ -37,6 +36,11 @@ export default {
   },
   data () {
     return {
+    }
+  },
+  methods: {
+    servicesItemClick () {
+      this.$emit('servicesItemClick', this.servicesItemData.slug)
     }
   }
 }
