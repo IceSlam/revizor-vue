@@ -1,7 +1,7 @@
 <template>
   <div id="services-item" class="is-services-item">
     <vue-headful
-      title="Бухгалтерский и налоговый учет - Услуги компании - Ревизор"
+      :title="newsItemP.title.rendered + ' / Новости компании | Ревизор'"
     />
     <div class="container">
       <isBreadCrumbs />
