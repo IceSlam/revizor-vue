@@ -1381,6 +1381,22 @@ ul ul a:hover {
     left: 30px;
   }
 
+  .is-news__page-content {
+    padding-bottom: 5em;
+  }
+
+  .is-news__page-content img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+  }
+
+  .is-news__page-date {
+    font-weight: 500;
+    margin-top: -2em;
+    margin-bottom: 3em;
+  }
+
   /* footerTpl component */
    #footer {
      background: #F1F1F1;

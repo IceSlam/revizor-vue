@@ -21,6 +21,7 @@
           v-for="newsItem in newsData"
           :key="newsItem.id"
           :newsItemData="newsItem"
+          @newsItemClick="newsItemClick"
         />
       </div>
     </div>
@@ -45,7 +46,12 @@ export default {
     }
   },
   data: () => ({
-  })
+  }),
+  methods: {
+    newsItemClick (el) {
+      this.$router.push({ name: 'newsItemPage', query: { el } })
+    }
+  }
 }
 
 </script>

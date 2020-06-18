@@ -10,9 +10,9 @@
           <p class="is-news__item-chevron">
             <i class="fas fa-chevron-right"></i>
           </p>
-          <router-link class="btn is-btn is-router-link-to" :to="'/news/' + newsItemData.slug">
+          <a @click.prevent="newsItemClick" class="btn is-btn is-router-link-to" >
             Подробнее
-          </router-link>
+          </a>
         </div>
         <p v-html="newsItemData.excerpt.rendered" class="is-news__item-description">
           {{ newsItemData.excerpt.rendered }}
@@ -37,6 +37,11 @@ export default {
   },
   data () {
     return {
+    }
+  },
+  methods: {
+    newsItemClick () {
+      this.$emit('newsItemClick', this.newsItemData.slug)
     }
   }
 }

@@ -21,7 +21,7 @@ const routes = [
     component: () => import('../views/servicesTpl')
   },
   {
-    path: '/services/item/',
+    path: '/services/',
     name: 'servicesItemPage',
     component: () => import('../views/servicesItemPageTpl')
   },
@@ -31,7 +31,7 @@ const routes = [
     component: () => import('../views/newsTpl')
   },
   {
-    path: '/news/:slug',
+    path: '/news/',
     name: 'newsItemPage',
     component: () => import('../views/newsItemPageTpl')
   },

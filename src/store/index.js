@@ -19,7 +19,7 @@ export default new Vuex.Store({
   },
   actions: {
     GET_SERVICES_FROM_API ({ commit }) {
-      return axios('http://revisor.iceslam.ru/wp-json/wp/v2/posts/?categories=3', {
+      return axios('http://revisor.iceslam.ru/wp-json/wp/v2/posts/?categories=3&per_page=50', {
         method: 'GET'
       })
         .then((response) => {
@@ -27,7 +27,7 @@ export default new Vuex.Store({
         })
     },
     GET_NEWS_FROM_API ({ commit }) {
-      return axios('http://revisor.iceslam.ru/wp-json/wp/v2/posts/?categories=2', {
+      return axios('http://revisor.iceslam.ru/wp-json/wp/v2/posts/?categories=2&per_page=50', {
         method: 'GET'
       })
         .then((response) => {
