@@ -14,7 +14,7 @@
           {{ servicesItemP.acf.advantages_title }}
         </h3>
         <ul class="is-services-item-advantage__list">
-          <li v-for="advantage in servicesItemP.acf.advantages_list" :key="advantage">
+          <li v-for="advantage in servicesItemP.acf.advantages_list" :key="advantage.id">
             {{ advantage.advantages_list_item }}
           </li>
         </ul>
@@ -29,7 +29,7 @@
         </h3>
         <div class="col-md-12">
           <ul class="is-services-item__results-list">
-            <li v-for="forwho in servicesItemP.acf.forwho_list" :key="forwho">
+            <li v-for="forwho in servicesItemP.acf.forwho_list" :key="forwho.id">
               {{ forwho.forwho_list_item }}
             </li>
           </ul>
@@ -41,7 +41,7 @@
         </h3>
         <div class="col-md-12">
           <ul class="is-services-item__results-list">
-            <li v-for="result in servicesItemP.acf.results_list" :key="result">
+            <li v-for="result in servicesItemP.acf.results_list" :key="result.id">
               {{ result.results_list_item }}
             </li>
           </ul>
@@ -56,7 +56,7 @@
           {{ servicesItemP.acf.sphere_title }}
         </h3>
         <ul class="is-services-item-sphere__list">
-          <li v-for="sphere in servicesItemP.acf.sphere_list" :key="sphere">
+          <li v-for="sphere in servicesItemP.acf.sphere_list" :key="sphere.id">
             {{ sphere.sphere_list_item }}
           </li>
         </ul>

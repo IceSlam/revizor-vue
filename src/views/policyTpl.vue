@@ -1,8 +1,7 @@
 <template>
   <div id="policyPage">
     <vue-headful
-      title="Политика конфиденциальности - Ревизор"
-      description="Политика конфиденциальности в отношении обработки персональных данных компанией Ревизор"
+      title="Политика конфиденциальности | Ревизор"
     />
     <isBreadCrumbs />
     <img alt="Vue logo" src="../assets/logo.png">

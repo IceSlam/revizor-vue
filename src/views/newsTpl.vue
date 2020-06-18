@@ -1,8 +1,7 @@
 <template>
   <div id="news-page" class="is-news container">
     <vue-headful
-      title="Новости компании - Ревизор"
-      description="Новости компании Ревизор"
+      title="Новости компании | Ревизор"
     />
     <isBreadCrumbs />
     <newsPageItems

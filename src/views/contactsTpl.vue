@@ -2,8 +2,7 @@
   <div id="contactsPage" class="is-contacts">
     <div class="container">
       <vue-headful
-        title="Контактная информация - Ревизор"
-        description="Контактная информация компании Ревизор"
+        title="Контактная информация | Ревизор"
       />
         <isBreadCrumbs />
       <div class="row is-contacts__info">

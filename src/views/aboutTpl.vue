@@ -1,7 +1,7 @@
 <template>
   <div id="aboutPage" class="is-about container" style="background:none;">
     <vue-headful
-      title="О компании - Ревизор"
+      title="О компании | Ревизор"
       description="О компании ревизор"
     />
       <isBreadCrumbs />

@@ -1,8 +1,7 @@
 <template>
   <div id="services-page"  class="is-services">
     <vue-headful
-      title="Услуги компании - Ревизор"
-      description="Перечень услуг компании Ревизор"
+      title="Услуги компании | Ревизор"
     />
     <div class="container">
       <isBreadCrumbs />
