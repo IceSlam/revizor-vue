@@ -39,7 +39,7 @@ export default {
   }),
   methods: {
     servicesItemClick (el) {
-      this.$router.push({ name: 'servicesItemPage', query: { el } })
+      this.$router.push({ name: 'servicesItemPage', params: { id: el } })
     }
   }
 }

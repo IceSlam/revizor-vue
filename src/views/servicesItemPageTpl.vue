@@ -86,7 +86,7 @@ export default {
       let itemContent = {}
       const vm = this
       this.SERVICES.map(function (item) {
-        if (item.slug === vm.$route.query.el) {
+        if (item.slug === vm.$route.params.id) {
           itemContent = item
         }
       })

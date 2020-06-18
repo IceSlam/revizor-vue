@@ -21,7 +21,7 @@ const routes = [
     component: () => import('../views/servicesTpl')
   },
   {
-    path: '/services/',
+    path: '/services/:id',
     name: 'servicesItemPage',
     component: () => import('../views/servicesItemPageTpl')
   },
