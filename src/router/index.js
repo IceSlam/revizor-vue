@@ -31,7 +31,7 @@ const routes = [
     component: () => import('../views/newsTpl')
   },
   {
-    path: '/news/',
+    path: '/news/:id',
     name: 'newsItemPage',
     component: () => import('../views/newsItemPageTpl')
   },

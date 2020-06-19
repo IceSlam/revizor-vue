@@ -33,8 +33,8 @@ export default {
   data: () => ({
   }),
   methods: {
-    newsItemClick (el) {
-      this.$router.push({ name: 'newsItemPage', query: { el } })
+    newsItemClick (id) {
+      this.$router.push({ name: 'newsItemPage', params: { id } })
     }
   }
 }

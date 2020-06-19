@@ -72,7 +72,7 @@
 
 <script>
 
-import { mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 
 export default {
   name: 'servicesItemPage',
@@ -92,6 +92,14 @@ export default {
       })
       return itemContent
     }
+  },
+  mounted () {
+    this.GET_SERVICES_FROM_API()
+  },
+  methods: {
+    ...mapActions([
+      'GET_SERVICES_FROM_API'
+    ])
   }
 }
 </script>

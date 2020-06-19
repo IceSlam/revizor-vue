@@ -16,7 +16,7 @@
 
 <script>
 
-import { mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 
 export default {
@@ -32,7 +32,7 @@ export default {
       let itemContent = {}
       const vm = this
       this.NEWS.map(function (item) {
-        if (item.slug === vm.$route.query.el) {
+        if (item.slug === vm.$route.params.id) {
           itemContent = item
         }
       })
@@ -41,6 +41,14 @@ export default {
     localeDate () {
       return (new Date(this.newsItemP.date)).toLocaleDateString()
     }
+  },
+  mounted () {
+    this.GET_NEWS_FROM_API()
+  },
+  methods: {
+    ...mapActions([
+      'GET_NEWS_FROM_API'
+    ])
   }
 }
 </script>

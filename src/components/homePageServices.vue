@@ -38,8 +38,8 @@ export default {
   data: () => ({
   }),
   methods: {
-    servicesItemClick (el) {
-      this.$router.push({ name: 'servicesItemPage', params: { id: el } })
+    servicesItemClick (id) {
+      this.$router.push({ name: 'servicesItemPage', params: { id } })
     }
   }
 }
