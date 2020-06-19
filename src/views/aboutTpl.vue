@@ -63,16 +63,4 @@ export default {
 </script>
 
 <style>
-.is-loader {
-  margin-top:3rem;
-  margin-bottom:6rem;
-}
-.spinner-border {
-  border: 1px solid #DE3131;
-  border-right-color: transparent;
-  width:60px;
-  height:60px;
-  margin: 0 auto;
-  margin-top:3em;
-}
 </style>
