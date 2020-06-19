@@ -44,11 +44,11 @@
         <div class="collapse navbar-collapse is-navbar__collapse" :class="showHeaderMenuClass" id="navbarSupportedContent-333">
           <div class="row">
             <div class="col-md-12">
-              <a :href="contactsItemsInfo.acf.sys_address_link" target="_blank">
+              <a v-if="contactsItemsInfo.acf" :href="contactsItemsInfo.acf.sys_address_link" target="_blank">
                 <i class="fas fa-map-marker-alt "></i>
                 {{ contactsItemsInfo.acf.sys_address }}
               </a>
-              <a :href="'mailto:' + contactsItemsInfo.acf.sys_email">
+              <a v-if="contactsItemsInfo.acf" :href="'mailto:' + contactsItemsInfo.acf.sys_email">
                 <i class="fas fa-envelope"></i>
                 {{ contactsItemsInfo.acf.sys_email }}
               </a>
@@ -87,7 +87,7 @@
           <div class="col-md-4 is-header__phone-block">
           <div class="row" style="margin-top:-45px;">
             <div class="col-md-12 is-header__phone-item-block">
-              <a class="is-header__phone" :href="'tel:'+ contactsItemsInfo.acf.sys_phone">
+              <a v-if="contactsItemsInfo.acf" class="is-header__phone" :href="'tel:'+ contactsItemsInfo.acf.sys_phone">
                 {{ contactsItemsInfo.acf.sys_phone }}
               </a>
             </div>

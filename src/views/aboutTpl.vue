@@ -9,8 +9,9 @@
   </div>
   <div v-else id="aboutPage" class="is-about container" style="background:none;">
     <vue-headful
+      v-if="aboutPageInfo.title"
       :title="aboutPageInfo.title.rendered + ' | Ревизор'"
-      :description="aboutPageInfo.content"
+      :description="aboutPageInfo.content.rendered"
     />
       <div class="is-breadcrumb-list">
         <nav aria-label="breadcrumb">
@@ -20,7 +21,7 @@
                 Главная
               </router-link>
             </li>
-            <li class="breadcrumb-item active">
+            <li v-if="aboutPageInfo.title" class="breadcrumb-item active">
               {{ aboutPageInfo.title.rendered }}
             </li>
           </ol>
@@ -28,11 +29,11 @@
       </div>
     <div class="row is-contacts__info">
       <div class="col-md-12">
-        <h2>
+        <h2  v-if="aboutPageInfo.title" >
           {{ aboutPageInfo.title.rendered }}
         </h2>
       </div>
-      <div v-html="aboutPageInfo.content.rendered" class="col-md-12 is-contacts__info-details">
+      <div  v-if="aboutPageInfo.content"  v-html="aboutPageInfo.content.rendered" class="col-md-12 is-contacts__info-details">
       </div>
     </div>
   </div>

@@ -10,6 +10,7 @@
   <div v-else id="contactsPage" class="is-contacts">
     <div class="container">
       <vue-headful
+        v-if="contactsPageInfo.title"
         :title="contactsPageInfo.title.rendered + ' | Ревизор'"
       />
         <div class="is-breadcrumb-list">
@@ -20,7 +21,7 @@
                   Главная
                 </router-link>
               </li>
-              <li class="breadcrumb-item active">
+              <li v-if="contactsPageInfo.title" class="breadcrumb-item active">
                 {{ contactsPageInfo.title.rendered }}
               </li>
             </ol>
@@ -28,14 +29,14 @@
         </div>
       <div class="row is-contacts__info">
         <div class="col-md-12">
-          <h2>
+          <h2 v-if="contactsPageInfo.title">
             {{ contactsPageInfo.title.rendered }}
           </h2>
         </div>
-        <div v-html="contactsPageInfo.content.rendered" class="col-md-6 is-contacts__info-details">
+        <div v-if="contactsPageInfo.content" v-html="contactsPageInfo.content.rendered" class="col-md-6 is-contacts__info-details">
         </div>
         <div class="col-md-6 is-contacts__info-map">
-          <img class="img-fluid" :src="contactsPageInfo.acf.contacts_map" alt="">
+          <img v-if="contactsPageInfo.acf" class="img-fluid" :src="contactsPageInfo.acf.contacts_map" alt="">
         </div>
       </div>
     </div>
