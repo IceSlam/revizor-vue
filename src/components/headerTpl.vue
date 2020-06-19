@@ -44,13 +44,13 @@
         <div class="collapse navbar-collapse is-navbar__collapse" :class="showHeaderMenuClass" id="navbarSupportedContent-333">
           <div class="row">
             <div class="col-md-12">
-              <a href="#">
+              <a :href="contactsItemsInfo.acf.sys_address_link" target="_blank">
                 <i class="fas fa-map-marker-alt "></i>
-                г. Барнаул, ул. Пролетарская, 92
+                {{ contactsItemsInfo.acf.sys_address }}
               </a>
-              <a href="#">
+              <a :href="'mailto:' + contactsItemsInfo.acf.sys_email">
                 <i class="fas fa-envelope"></i>
-                info@info.ru
+                {{ contactsItemsInfo.acf.sys_email }}
               </a>
             </div>
             <div class="col-md-12">
@@ -87,8 +87,8 @@
           <div class="col-md-4 is-header__phone-block">
           <div class="row" style="margin-top:-45px;">
             <div class="col-md-12 is-header__phone-item-block">
-              <a class="is-header__phone" href="tel:8-800-000-25-25">
-                8-800-000-25-25
+              <a class="is-header__phone" :href="'tel:'+ contactsItemsInfo.acf.sys_phone">
+                {{ contactsItemsInfo.acf.sys_phone }}
               </a>
             </div>
             <div class="col-md-12 is-header__callback-block">
@@ -111,6 +111,7 @@
 
 <script>
 
+import axios from 'axios'
 import isModal from '@/components/modal/isModal'
 
 export default {
@@ -120,6 +121,7 @@ export default {
   },
   data () {
     return {
+      contactsItemsInfo: {},
       showHeaderMenuClass: { show: false },
       isModalFormVisible: false
     }
@@ -134,6 +136,11 @@ export default {
     closeModalForm () {
       this.isModalFormVisible = false
     }
+  },
+  mounted () {
+    axios
+      .get('http://revisor.iceslam.ru/wp-json/wp/v2/pages/5')
+      .then(response => (this.contactsItemsInfo = response.data))
   }
 }
 
