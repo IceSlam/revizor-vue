@@ -4,7 +4,20 @@
       title="Услуги компании | Ревизор"
     />
     <div class="container">
-      <isBreadCrumbs />
+      <div class="is-breadcrumb-list">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <router-link :to="{ name: 'homePage' }" exact>
+                Главная
+              </router-link>
+            </li>
+            <li class="breadcrumb-item active">
+              Услуги компании
+            </li>
+          </ol>
+        </nav>
+      </div>
       <homePageServices
         :servicesData="SERVICES"
       />
@@ -15,13 +28,11 @@
 <script>
 
 import { mapActions, mapGetters } from 'vuex'
-import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 import homePageServices from '@/components/homePageServices'
 
 export default {
   name: 'servicesPage',
   components: {
-    isBreadCrumbs,
     homePageServices
   },
   computed: {

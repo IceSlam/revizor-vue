@@ -4,7 +4,25 @@
       :title="newsItemP.title.rendered + ' / Новости компании | Ревизор'"
     />
     <div class="container">
-      <isBreadCrumbs />
+        <div class="is-breadcrumb-list">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <router-link :to="{ name: 'homePage' }" exact>
+                  Главная
+                </router-link>
+              </li>
+              <li class="breadcrumb-item">
+                <router-link :to="{ name: 'newsPage' }" exact>
+                  Новости компании
+                </router-link>
+              </li>
+              <li class="breadcrumb-item active">
+                {{ newsItemP.title.rendered }}
+              </li>
+            </ol>
+          </nav>
+        </div>
       <h2 v-html="newsItemP.title.rendered"></h2>
       <p class="is-news__page-date">Опубликовано: <span style="font-weight:200">{{ localeDate }}</span></p>
       <div class="is-news__page-content">
@@ -17,12 +35,10 @@
 <script>
 
 import { mapGetters, mapActions } from 'vuex'
-import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 
 export default {
   name: 'newsItemPage',
   components: {
-    isBreadCrumbs
   },
   computed: {
     ...mapGetters([

@@ -5,7 +5,16 @@
       description="Бухгалтерские и юридические услуги в Барнауле"
     />
     <homePageSlider />
+    <div v-if="isLoader" class="is-loader row">
+      <div class="col-md-12">
+        <center>
+          <div class="spinner-border" role="status">
+          </div>
+        </center>
+      </div>
+    </div>
     <homePageServices
+      v-else
       :servicesData="SERVICES"
     />
     <homePageAbout />
@@ -29,6 +38,11 @@ export default {
     homePageAbout,
     homePageCertifs
   },
+  data () {
+    return {
+      isLoader: true
+    }
+  },
   computed: {
     ...mapGetters([
       'SERVICES'
@@ -36,6 +50,7 @@ export default {
   },
   mounted () {
     this.GET_SERVICES_FROM_API()
+    this.isLoader = false
   },
   methods: {
     ...mapActions([

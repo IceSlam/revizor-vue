@@ -1,10 +1,31 @@
 <template>
-  <div id="contactsPage" class="is-contacts">
+  <div v-if="isLoader" class="is-loader row">
+    <div class="col-md-12">
+      <center>
+        <div class="spinner-border" role="status">
+        </div>
+      </center>
+    </div>
+  </div>
+  <div v-else id="contactsPage" class="is-contacts">
     <div class="container">
       <vue-headful
         :title="contactsPageInfo.title.rendered + ' | Ревизор'"
       />
-        <isBreadCrumbs />
+        <div class="is-breadcrumb-list">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <router-link :to="{ name: 'homePage' }" exact>
+                  Главная
+                </router-link>
+              </li>
+              <li class="breadcrumb-item active">
+                {{ contactsPageInfo.title.rendered }}
+              </li>
+            </ol>
+          </nav>
+        </div>
       <div class="row is-contacts__info">
         <div class="col-md-12">
           <h2>
@@ -24,22 +45,22 @@
 <script>
 
 import axios from 'axios'
-import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 
 export default {
   name: 'contactsPage',
   components: {
-    isBreadCrumbs
   },
   data () {
     return {
-      contactsPageInfo: {}
+      contactsPageInfo: {},
+      isLoader: true
     }
   },
   mounted () {
     axios
       .get('http://revisor.iceslam.ru/wp-json/wp/v2/pages/16')
       .then(response => (this.contactsPageInfo = response.data))
+    this.isLoader = false
   }
 }
 </script>

@@ -1,9 +1,36 @@
 <template>
-  <div v-if="servicesItemP.acf.service_longtitle.length" id="services-item" class="is-services-item">
+  <div v-if="isLoader" class="is-loader row">
+    <div class="col-md-12">
+      <center>
+        <div class="spinner-border" role="status">
+        </div>
+      </center>
+    </div>
+  </div>
+  <div v-else id="services-item" class="is-services-item">
     <vue-headful
       :title="servicesItemP.title.rendered + ' / Услуги компании | Ревизор'"
     />
     <div class="container">
+      <div class="is-breadcrumb-list">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <router-link :to="{ name: 'homePage' }" exact>
+                Главная
+              </router-link>
+            </li>
+            <li class="breadcrumb-item">
+              <router-link :to="{ name: 'servicesPage' }" exact>
+                Услуги компании
+              </router-link>
+            </li>
+            <li class="breadcrumb-item active">
+              {{ servicesItemP.title.rendered }}
+            </li>
+          </ol>
+        </nav>
+      </div>
       <h2>
       {{ servicesItemP.acf.service_longtitle }}
       </h2>
@@ -63,11 +90,6 @@
       </div>
     </div>
   </div>
-  <div v-else class="container text-center mt-5 mb-5">
-    <h2>
-      Данные отсутствуют
-    </h2>
-  </div>
 </template>
 
 <script>
@@ -77,6 +99,11 @@ import { mapGetters, mapActions } from 'vuex'
 export default {
   name: 'servicesItemPage',
   components: {
+  },
+  data () {
+    return {
+      isLoader: true
+    }
   },
   computed: {
     ...mapGetters([
@@ -95,6 +122,7 @@ export default {
   },
   mounted () {
     this.GET_SERVICES_FROM_API()
+    this.isLoader = false
   },
   methods: {
     ...mapActions([
