@@ -2,31 +2,19 @@
   <div id="contactsPage" class="is-contacts">
     <div class="container">
       <vue-headful
-        title="Контактная информация | Ревизор"
+        :title="contactsPageInfo.title.rendered + ' | Ревизор'"
       />
         <isBreadCrumbs />
       <div class="row is-contacts__info">
         <div class="col-md-12">
           <h2>
-            Контактная информация
+            {{ contactsPageInfo.title.rendered }}
           </h2>
         </div>
-        <div class="col-md-6 is-contacts__info-details">
-          <h3>
-            Компания «Ревизор»
-          </h3>
-          <p>
-            Адрес: Россия, Алтайский край, Барнаул г., Пролетарская улица, 92/46
-          </p>
-          <p>
-            Телефон: +7-800-000-25-25
-          </p>
-          <p>
-            Email: info@info.ru
-          </p>
+        <div v-html="contactsPageInfo.content.rendered" class="col-md-6 is-contacts__info-details">
         </div>
         <div class="col-md-6 is-contacts__info-map">
-          <img class="img-fluid" src="../assets/img/map.png" alt="">
+          <img class="img-fluid" :src="contactsPageInfo.acf.contacts_map" alt="">
         </div>
       </div>
     </div>
@@ -35,12 +23,23 @@
 
 <script>
 
+import axios from 'axios'
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 
 export default {
   name: 'contactsPage',
   components: {
     isBreadCrumbs
+  },
+  data () {
+    return {
+      contactsPageInfo: {}
+    }
+  },
+  mounted () {
+    axios
+      .get('http://revisor.iceslam.ru/wp-json/wp/v2/pages/16')
+      .then(response => (this.contactsPageInfo = response.data))
   }
 }
 </script>

@@ -1,18 +1,27 @@
 <template>
   <div id="news-page" class="is-news container">
     <vue-headful
-      title="Новости компании | Ревизор"
+      :title="newsCategoryInfo.name +' | Ревизор'"
     />
     <isBreadCrumbs />
+    <div class="row">
+      <h2 style="margin-top:3rem;margin-bottom:3rem;font-family: Nunito;font-style: normal;font-weight: bold;font-size: 40px;line-height: 120%;color: #3F3E3E;padding-left: 1rem;">
+        {{ newsCategoryInfo.name }}
+      </h2>
+    </div>
+    <div class="row">
+      <div v-html="newsCategoryInfo.description" class="col-md-12">
+      </div>
+    </div>
     <newsPageItems
       :newsData="NEWS"
     />
   </div>
 </template>
-
 <script>
 
 import { mapActions, mapGetters } from 'vuex'
+import axios from 'axios'
 import isBreadCrumbs from '@/components/system/isBreadCrumbs'
 import newsPageItems from '@/components/newsPageItems'
 
@@ -22,13 +31,19 @@ export default {
     isBreadCrumbs,
     newsPageItems
   },
+  data: () => ({
+    newsCategoryInfo: []
+  }),
+  mounted () {
+    axios
+      .get('http://revisor.iceslam.ru/wp-json/wp/v2/categories/2')
+      .then(response => (this.newsCategoryInfo = response.data))
+    this.GET_NEWS_FROM_API()
+  },
   computed: {
     ...mapGetters([
       'NEWS'
     ])
-  },
-  mounted () {
-    this.GET_NEWS_FROM_API()
   },
   methods: {
     ...mapActions([
