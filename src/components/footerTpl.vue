@@ -66,6 +66,11 @@
       </div>
     </div>
   </nav>
+  <back-to-top text="Back to top" visibleoffset="500">
+    <button class="btn btn-to-top" type="button">
+      <i class="fas fa-chevron-up fa-2x"></i>
+    </button>
+  </back-to-top>
 </footer>
 </template>
 
@@ -89,5 +94,10 @@ export default {
 </script>
 
 <style lang="css">
-
+  .btn-to-top {
+    background-color: #de3131 !important;
+    color: #fff;
+    padding: 1rem !important;
+    box-shadow: none !important;
+  }
 </style>
