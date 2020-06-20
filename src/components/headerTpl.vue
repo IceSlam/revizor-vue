@@ -64,15 +64,36 @@
                 <li class="nav-item">
                   <router-link class="nav-link is-dd-toggle" to="/services" >Услуги</router-link>
                   <ul class="is-dd-menu">
-                    <a class="dropdown-item" href="#">Бухгалтерский и налоговый учет</a>
-                    <a class="dropdown-item" href="#">Помощь в составлении налоговой и бухгалтерской отчетности</a>
-                    <a class="dropdown-item" href="#">Помощь в составлении з/п отчетности</a>
-                    <a class="dropdown-item" href="#">З-НДФЛ</a>
-                    <a class="dropdown-item" href="#">Консультации по выбору системы налогооблажения</a>
-                    <a class="dropdown-item" href="#">Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ</a>
-                    <a class="dropdown-item" href="#">Оформление пакета документов при трудоустройстве сотрудников</a>
-                    <a class="dropdown-item" href="#">Регистрация и ликвидация ИП, ООО</a>
-                    <a class="dropdown-item" href="#">Представительство и решение спорных вопросов с ИФНС</a>
+                    <router-link class="dropdown-item" href="#" to="/services/buhgalterskij-i-nalogovyj-uchet">
+                      Бухгалтерский и налоговый учет
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/pomoshh-v-sostavlenii-buhgalterskoj-i-nalogovoj-otchetnosti">
+                      Помощь в составлении налоговой и бухгалтерской отчетности
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/pomoshh-v-sostavlenii-z-p-otchetnosti">
+                      Помощь в составлении з/п отчетности
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/3-ndfl">
+                      З-НДФЛ
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/konsultatsii-po-vyboru-sistemy-nalogooblazheniya">
+                      Консультации по выбору системы налогооблажения
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/podgotovka-otvetov-na-trebovaniya-ifns-fss-pf-rf">
+                      Подготовка ответов на требования ИФНС, ФСС, ПФ, РФ
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/oformlenie-paketa-dokumentov-pri-trudoustrojstve-sotrudnikov">
+                      Оформление пакета документов при трудоустройстве сотрудников
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/registratsiya-i-likvidatsiya-ip-ooo">
+                      Регистрация и ликвидация ИП, ООО
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/vosstanovlenie-buhgalterskogo-i-nalogovogo-ucheta">
+                      Восстановление бухгалтерского и налогового учета
+                    </router-link>
+                    <router-link class="dropdown-item" href="#" to="/services/predstavitelstvo-i-reshenie-spornyh-voprosov-s-ifns">
+                      Представительство и решение спорных вопросов с ИФНС
+                    </router-link>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -135,6 +156,9 @@ export default {
     },
     closeModalForm () {
       this.isModalFormVisible = false
+    },
+    servicesItemNavClick () {
+      this.$emit('servicesItemNavClick', this.servicesItemData.slug)
     }
   },
   mounted () {
@@ -146,6 +170,9 @@ export default {
 
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+  .is-dd-menu .router-link-active::after {
+    display: none;
+  }
 
 </style>
